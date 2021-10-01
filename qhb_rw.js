@@ -1,14 +1,14 @@
 /*
 软件名：趣红包短视频     收益未知  定时自己设置  执行一次脚本大概需要3分钟
-邀请码：EEBCO46Q
+
 【REWRITE】
 匹配链接（正则表达式） http://api2.guaniuvideo.com/reward/video
-对应重写目标   https://raw.fastgit.org/byxiaopeng/myscripts/main/qhb_rw.js
+对应重写目标   https://raw.githubusercontent.com/ugg999999/other/main/qhb_rw.js
 食用方法：视频页面看视频 等待红包转圈完成即可获取
 提现兑换里面开启活动提现即可
 定时5-23.59点运行一次即可
 
-10 6 * * * https://raw.fastgit.org/byxiaopeng/myscripts/main/qhb_rw.js
+10 6 * * * https://raw.githubusercontent.com/ugg999999/other/main/qhb_rw.js
 /////////////////////////////////////////////////////////////////////////////
 */
 

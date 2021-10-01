@@ -13,9 +13,9 @@ http://apponlie.sahaj.cn/user/myInfo
 v2p配置重写如下：
 ***************************************************************************************************************
 [rewrite]
-http://apponlie.sahaj.cn/user/myInfo 重写目标 https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js
+http://apponlie.sahaj.cn/user/myInfo 重写目标 https://raw.githubusercontent.com/ugg999999/other/main/jsz.js
 [task]
-建议定时每十分钟跑一次 https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js
+建议定时每十分钟跑一次 https://raw.githubusercontent.com/ugg999999/other/main/jsz.js
 ***************************************************************************************************************
 活动地址：频道图片
 食用方法：
@@ -26,7 +26,7 @@ http://apponlie.sahaj.cn/user/myInfo 重写目标 https://raw.githubusercontent.
 每满4000金币（4毛）微信自动提现
 
 */
-// */10 * * * * https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js
+// */10 * * * * https://raw.githubusercontent.com/ugg999999/other/main/jsz.js
 
 
 // @grant    require
