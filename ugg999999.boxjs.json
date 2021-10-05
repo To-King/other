@@ -1,89 +1,404 @@
 {
-    "id": "ugg999999.app.sub",
-    "name": "boxjs订阅",
+  "id": "ugg999999.app.sub",
+  "name": "boxjs订阅",
+  "author": "@ugg999999",
+  "icon": "https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg",
+  "repo": "https://github.com/ugg999999/other",
+  "apps": [
+    {
+    "id": "jscfz",
+    "name": "嘉实宠粉站",
+    "keys": ["jscfzheader","jscfzheader2","jscfzheader3","jscfzheader4","jscfzheader5","jscfzheader6","jscfzheader7","jscfzheader8","jscfzheader9","jscfzheader10","jscfzheader11","jscfzheader12","jscfzheader13","jscfzheader14","jscfzheader15"],
     "author": "@ugg999999",
-    "icon": "https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg",
-    "repo": "https://github.com/ugg999999/other",
-    "apps": [
+    "settings": [
+      {
+        "id": "jscfzSuffix",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+      }, 
+      {
+        "id": "jscfzCount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+      }, 
+      {
+        "id": "jscfzXH",
+        "name": "循环获取ck",
+        "val": "0",
+        "type": "number",
+        "desc": "0关闭，1打开，默认关闭"
+      }, 
+      {
+        "id": "jscfzTXTX",
+        "name": "txtx",
+        "val": "0",
+        "type": "number",
+        "desc": "0关闭，1打开，默认关闭"
+      }, 
+      {
+        "id": "jscfzSC",
+        "name": "sc",
+        "val": "0",
+        "type": "number",
+        "desc": "0关闭，1打开，默认关闭"
+      }, 
+      {
+        "id": "jscfznotifyttt",
+        "name": "推送控制",
+        "val": "1",
+        "type": "number",
+        "desc": "0关闭，1推送,默认12点以及23点推送"
+      }, 
+      {
+        "id": "jscfznotifyInterval",
+        "name": "通知控制",
+        "val": "2",
+        "type": "number",
+        "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+      }, 
+      {
+        "id": "jscfzMinutes",
+        "name": "推送-通知 分钟控制",
+        "val": "10",
+        "type": "number",
+        "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+      }],
+    "repo": "https://github.com/ugg999999/other/blob/main/jscfz.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/jscfz.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    },
     {
       "id": "jsz",
       "name": "金银手指阅读",
       "keys": ["jszhd","jszhd2","jszhd3","jszhd4","jszhd5"],
-      "settings": [{
-                        "id": "jszstatus",
-                        "name": "当前账号",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
-                    }, {
-                        "id": "jszcount",
-                        "name": "账号个数",
-                        "val": "1",
-                        "type": "number",
-                        "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                    }],
-  
-      "repo": "https://github.com/shaolin-kongfu/js_scripts/blob/main/jsz.js", 
-      "script": "https://raw.githubusercontent.com/shaolin-kongfu/js_scripts/main/jsz.js", 
+      "settings": [
+        {
+          "id": "jszstatus",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4等"
+        }, 
+        {
+          "id": "jszcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }], 
+      "repo": "https://github.com/ugg999999/other/blob/main/jsz.js", 
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/jsz.js", 
       "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg","https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg"]
     },
     {
       "id": "dsj",
       "name": "电视家APP",
       "keys": ["dsjheader", "dsjurl", "dsjheader2", "dsjurl2", "dsjheader3", "dsjurl3", "dsjheader4", "dsjurl4", "dsjheader5", "dsjurl5", "dsjheader6", "dsjurl6", "dsjheader7", "dsjurl7", "dsjheader8", "dsjurl8", "dsjheader9", "dsjurl9", "dsjheader10", "dsjurl10", "dsjheader11", "dsjurl11", "dsjheader12", "dsjurl12", "dsjheader13", "dsjurl13", "dsjheader14", "dsjurl14", "dsjheader15", "dsjurl15", "dsjheader16", "dsjurl16", "dsjheader17", "dsjurl17", "dsjheader18", "dsjurl18", "dsjheader19", "dsjurl19", "dsjheader20", "dsjurl20"],
-      "author": "@ziye",
-      "settings": [{
-                    "id": "dsjSuffix",
-                    "name": "当前账号",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
-                },
-                {
-                    "id": "dsjCount",
-                    "name": "账号个数",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-                },
-                {
-                    "id": "dsjXH",
-                    "name": "循环获取CK",
-                    "val": "0",
-                    "type": "number",
-                    "desc": "0关闭 1开启,默认关闭"
-                },
-                {
-                    "id": "dsjXYZ",
-                    "name": "执行概率",
-                    "val": "100",
-                    "type": "number",
-                    "desc": "0不执行 可设置0-100,默认百分百"
-                },
-                {
-                    "id": "dsjnotifyttt",
-                    "name": "推送控制",
-                    "val": "1",
-                    "type": "number",
-                    "desc": "0关闭，1推送,默认12点以及23点推送"
-                },
-                {
-                    "id": "dsjnotifyInterval",
-                    "name": "通知控制",
-                    "val": "2",
-                    "type": "number",
-                    "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
-                },
-                {
-                    "id": "dsjMinutes",
-                    "name": "推送-通知 分钟控制",
-                    "val": "10",
-                    "type": "number",
-                    "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-                }],
-        "repo": "https://github.com/ugg999999/other/blob/main/dsj.js",
-        "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg", "https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg"],
-        "script": "https://raw.githubusercontent.com/ugg999999/other/main/dsj.js"
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "dsjSuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+        },
+        {
+          "id": "dsjCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "dsjXH",
+          "name": "循环获取CK",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭 1开启,默认关闭"
+        },
+        {
+          "id": "dsjXYZ",
+          "name": "执行概率",
+          "val": "100",
+          "type": "number",
+          "desc": "0不执行 可设置0-100,默认百分百"
+        },
+        {
+          "id": "dsjnotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        },
+        {
+          "id": "dsjnotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+        },
+        {
+          "id": "dsjMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        }],
+      "repo": "https://github.com/ugg999999/other/blob/main/dsj.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/dsj.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+
+    },
+    {
+      "id": "shuqi",
+      "name": "书旗小说APP",
+      "keys": ["shuqiuserurl","shuqisyurl","shuqisybody","shuqispbody","shuqiscbody","shuqiydbody","shuqiqdbody","shuqirwbody","shuqifxbody","shuqisprwurl","shuqijlbody","shuqisqjlbody","shuqicjyurl","shuqicjcsbody","shuqicjbody","shuqijsspbody","shuqijsydurl","shuqijsydbody","shuqijsqdbody","shuqijsqdspyurl","shuqijsqdspbody","shuqijsrwbody","shuqijsfxbody","shuqijsbookurl","shuqijsbookbody","shuqijssprwurl"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "shuqiSuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、"
+        },
+        {
+          "id": "shuqiCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "shuqiXH",
+          "name": "循环获取CK",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭 1开启,默认关闭"
+        },
+        {
+          "id": "shuqiSC",
+          "name": "单刷时长控制",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭 1开启,默认关闭"
+        },
+        {
+          "id": "shuqiTXTX",
+          "name": "提现提醒",
+          "val": "10",
+          "type": "number",
+          "desc": "0关闭 设置余额大于多少提醒"
+        },
+        {
+          "id": "shuqinotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        },
+        {
+          "id": "shuqinotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知 "
+        },
+        {
+          "id": "shuqiMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other/blob/main/shuqi.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/shuqi.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    },
+    {
+     "id": "jrtt",
+     "name": "今日头条极速版",
+     "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3", "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4", "signurl5", "signkey5", "farmurl5", "farmkey5", "readurl5", "readkey5", "signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6", "signurl7", "signkey7", "farmurl7", "farmkey7", "readurl7", "readkey7", "signurl8", "signkey8", "farmurl8", "farmkey8", "readurl8", "readkey8", "signurl9", "signkey9", "farmurl9", "farmkey9", "readurl9", "readkey9", "signurl10", "signkey10", "farmurl10", "farmkey10", "readurl10", "readkey10", "signurl11", "signkey11", "farmurl11", "farmkey11", "readurl11", "readkey11", "signurl12", "signkey12", "farmurl12", "farmkey12", "readurl12", "readkey12", "signurl13", "signkey13", "farmurl13", "farmkey13", "readurl13", "readkey13"],
+     "author": "@ugg999999",
+     "settings": [
+      {
+        "id": "tz",
+        "name": "静默运行",
+        "val": "1",
+        "type": "number",
+        "desc": "0为不通知，1为全部通知"
+      },
+      {
+        "id": "jrttsetting",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "jrttcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+    "repo": "https://github.com/ugg999999/other/blob/main/jrtt.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/jrtt.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    },
+    {
+     "id": "qjp",
+     "name": "趣键盘极速版",
+     "keys": ["qjphd","qjphd2", "qjphd3", "qjphd4", "qjphd5", "qjphd6", "qjphd7", "qjphd8", "qjphd9", "qjphd10"],
+     "author": "@ugg999999",
+     "settings": [
+      {
+        "id": "qjpstatus",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "当前账号对应"
+      },
+      {
+        "id": "qjpcount",
+        "name": "账号个数",
+        "val": "1",
+        "type": "number",
+        "desc": "需要几个账号，数字为几"
+      }],
+     "repo": "https://github.com/ugg999999/other/blob/main/qjp.js",
+     "script": "https://raw.githubusercontent.com/ugg999999/other/main/qjp.js",
+     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    },
+    {
+     "id": "elsbjsb",
+     "name": "2048极速版",
+     "keys": ["elsbjsbhd","elsbjsbbody", "elsbjsbhd2","elsbjsbbody2", "elsbjsbhd3","elsbjsbbody3", "elsbjsbhd4","elsbjsbbody4", "elsbjsbhd5","elsbjsbbody5", "elsbjsbhd6","elsbjsbbody6","elsbjsbhd7","elsbjsbbody7", "elsbjsbhd8","elsbjsbbody8", "elsbjsbhd9","elsbjsbbody9", "elsbjsbhd10","elsbjsbbody10"],
+     "author": "@ugg999999",
+     "settings": [
+       {
+         "id": "elsbjsbstatus",
+         "name": "当前账号",
+         "val": "1",
+         "type": "number",
+         "desc": "当前账号对应"
+       },
+       {
+         "id": "elsbjsbcount",
+         "name": "账号个数",
+         "val": "1",
+         "type": "number",
+         "desc": "需要几个账号，数字为几"
+        }],
+     "repo": "https://github.com/ugg999999/other/blob/main/elsbjsb.js",
+     "script": "https://raw.githubusercontent.com/ugg999999/other/main/elsbjsb.js",
+     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    },
+    {
+     "id": "yyd",
+     "name": "云阅读",
+     "keys": ["yydheader","yydheader2","yydheader3","yydheader4","yydheader5","yydheader6","yydheader7","yydheader8","yydheader9","yydheader10","yydheader11","yydheader12","yydheader13","yydheader14","yydheader15"],
+     "author": "@ugg999999",
+     "settings": [
+       {
+         "id": "yydSuffix",
+         "name": "当前账号",
+         "val": "1",
+         "type": "number",
+         "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+       }, 
+       {
+         "id": "yydCount",
+         "name": "账号个数",
+         "val": "1",
+         "type": "number",
+         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+       }, 
+       {
+         "id": "yydXH",
+         "name": "循环获取ck",
+         "val": "0",
+         "type": "number",
+         "desc": "0关闭，1打开，默认关闭"
+       }, 
+       {
+         "id": "yydTXTX",
+         "name": "txtx",
+         "val": "0",
+         "type": "number",
+         "desc": "0关闭，1打开，默认关闭"
+       }, 
+       {
+         "id": "yydSC",
+         "name": "sc",
+         "val": "0",
+         "type": "number",
+         "desc": "0关闭，1打开，默认关闭"
+       }, 
+       {
+         "id": "yydnotifyttt",
+         "name": "推送控制",
+         "val": "1",
+         "type": "number",
+         "desc": "0关闭，1推送,默认12点以及23点推送"
+       }, 
+       {
+         "id": "yydnotifyInterval",
+         "name": "通知控制",
+         "val": "2",
+         "type": "number",
+         "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+       }, 
+       {
+         "id": "yydMinutes",
+         "name": "推送-通知 分钟控制",
+         "val": "10",
+         "type": "number",
+         "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+       }],
+    "repo": "https://github.com/ugg999999/other/blob/main/yyd.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/yyd.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    },
+    {
+     "id": "xfapp",
+     "name": "溆锋APP",
+     "author": "@byxiaopeng",
+     "keys": ["xfPhone"],
+     "settings": [
+       {
+         "id": "xfPhone",
+         "name": "溆锋APP账户密码",
+         "val": "",
+         "type": "text",
+         "desc": "token 列表，以@间隔分开"
+       }],
+    "repo": "https://github.com/ugg999999/other/blob/main/xfapp.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/xfapp.js",
+    "icons": ["https://www.wuhuoculture.com/favicon.ico","https://www.wuhuoculture.com/favicon.ico"]
+    },
+    {
+      "id": "byapp",
+      "name": "博越APP",
+      "author": "@byxiaopeng",
+      "keys": ["byPhone"],
+      "settings": [
+        {
+          "id": "byPhone",
+          "name": "博越APP账户密码",
+          "val": "",
+          "type": "text",
+          "desc": "token 列表，以@间隔分开"
+        }],
+    "repo": "https://github.com/ugg999999/other/blob/main/byapp.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/byapp.js",
+    "icons": ["https://www.wuhuoculture.com/favicon.ico","https://www.wuhuoculture.com/favicon.ico"]
     }
    ]
 }
