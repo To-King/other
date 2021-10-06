@@ -1,8 +1,8 @@
 {
   "id": "ugg999999.app.sub",
-  "name": "boxjs订阅",
+  "name": "自用订阅",
   "author": "@ugg999999",
-  "icon": "https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg",
+  "icon": "https://raw.githubusercontent.com/ugg999999/other/main/tb.png",
   "repo": "https://github.com/ugg999999/other",
   "apps": [
     {
@@ -92,7 +92,7 @@
         }], 
       "repo": "https://github.com/ugg999999/other/blob/main/jsz.js", 
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/jsz.js", 
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg","https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg"]
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
     },
     {
       "id": "dsj",
@@ -369,7 +369,7 @@
     {
      "id": "xfapp",
      "name": "溆锋APP",
-     "author": "@byxiaopeng",
+     "author": "@ugg999999",
      "keys": ["xfPhone"],
      "settings": [
        {
@@ -381,12 +381,12 @@
        }],
     "repo": "https://github.com/ugg999999/other/blob/main/xfapp.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/xfapp.js",
-    "icons": ["https://www.wuhuoculture.com/favicon.ico","https://www.wuhuoculture.com/favicon.ico"]
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
     },
     {
       "id": "byapp",
       "name": "博越APP",
-      "author": "@byxiaopeng",
+      "author": "@ugg999999",
       "keys": ["byPhone"],
       "settings": [
         {
@@ -398,7 +398,7 @@
         }],
     "repo": "https://github.com/ugg999999/other/blob/main/byapp.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/byapp.js",
-    "icons": ["https://www.wuhuoculture.com/favicon.ico","https://www.wuhuoculture.com/favicon.ico"]
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
     }
    ]
 }
