@@ -2,10 +2,10 @@
   "id": "ugg999999.app.sub",
   "name": "自用订阅",
   "author": "@ugg999999",
-  "icon": "https://raw.githubusercontent.com/ugg999999/other/main/tb.png",
+  "icon": "https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.jpg",
   "repo": "https://github.com/ugg999999/other",
   "apps": [
-    {
+/*    {
     "id": "jscfz",
     "name": "嘉实宠粉站",
     "keys": ["jscfzheader","jscfzheader2","jscfzheader3","jscfzheader4","jscfzheader5","jscfzheader6","jscfzheader7","jscfzheader8","jscfzheader9","jscfzheader10","jscfzheader11","jscfzheader12","jscfzheader13","jscfzheader14","jscfzheader15"],
@@ -69,8 +69,8 @@
       }],
     "repo": "https://github.com/ugg999999/other/blob/main/jscfz.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/jscfz.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
-    },
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.png", "https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.png"]
+    },*/
     {
       "id": "jsz",
       "name": "金银手指阅读",
@@ -90,9 +90,9 @@
           "type": "number",
           "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
         }], 
-      "repo": "https://github.com/ugg999999/other/blob/main/jsz.js", 
-      "script": "https://raw.githubusercontent.com/ugg999999/other/main/jsz.js", 
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+      "repo": "https://github.com/ugg999999/other/blob/main/jsz/jsz.js", 
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/jsz/jsz.js", 
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/jsz/jsz.png","https://raw.githubusercontent.com/ugg999999/other/main/jsz/jsz.png"]
     },
     {
       "id": "dsj",
@@ -149,9 +149,9 @@
           "type": "number",
           "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
         }],
-      "repo": "https://github.com/ugg999999/other/blob/main/dsj.js",
-      "script": "https://raw.githubusercontent.com/ugg999999/other/main/dsj.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+      "repo": "https://github.com/ugg999999/other/blob/main/dsj/dsj.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsj.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsj.png", "https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsj.png"]
 
     },
     {
@@ -217,9 +217,9 @@
           "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
         }
       ],
-      "repo": "https://github.com/ugg999999/other/blob/main/shuqi.js",
-      "script": "https://raw.githubusercontent.com/ugg999999/other/main/shuqi.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+      "repo": "https://github.com/ugg999999/other/blob/main/shuqi/shuqi.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/shuqi/shuqi.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/shuqi/shuqi.png","https://raw.githubusercontent.com/ugg999999/other/main/shuqi/shuqi.png"]
     },
     {
      "id": "jrtt",
@@ -248,9 +248,9 @@
         "type": "number",
         "desc": "需要几个账号，数字为几"
       }],
-    "repo": "https://github.com/ugg999999/other/blob/main/jrtt.js",
-    "script": "https://raw.githubusercontent.com/ugg999999/other/main/jrtt.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    "repo": "https://github.com/ugg999999/other/blob/main/jrtt/jrtt.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/jrtt/jrtt.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/jrtt/jrtt.png", "https://raw.githubusercontent.com/ugg999999/other/main/jrtt/jrtt.png"]
     },
     {
      "id": "qjp",
@@ -272,11 +272,11 @@
         "type": "number",
         "desc": "需要几个账号，数字为几"
       }],
-     "repo": "https://github.com/ugg999999/other/blob/main/qjp.js",
-     "script": "https://raw.githubusercontent.com/ugg999999/other/main/qjp.js",
-     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+     "repo": "https://github.com/ugg999999/other/blob/main/qjp/qjp.js",
+     "script": "https://raw.githubusercontent.com/ugg999999/other/main/qjp/qjp.js",
+     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/qjp/qjp.png", "https://raw.githubusercontent.com/ugg999999/other/main/qjp/qjp.png"]
     },
-    {
+/*    {
      "id": "elsbjsb",
      "name": "2048极速版",
      "keys": ["elsbjsbhd","elsbjsbbody", "elsbjsbhd2","elsbjsbbody2", "elsbjsbhd3","elsbjsbbody3", "elsbjsbhd4","elsbjsbbody4", "elsbjsbhd5","elsbjsbbody5", "elsbjsbhd6","elsbjsbbody6","elsbjsbhd7","elsbjsbbody7", "elsbjsbhd8","elsbjsbbody8", "elsbjsbhd9","elsbjsbbody9", "elsbjsbhd10","elsbjsbbody10"],
@@ -296,10 +296,10 @@
          "type": "number",
          "desc": "需要几个账号，数字为几"
         }],
-     "repo": "https://github.com/ugg999999/other/blob/main/elsbjsb.js",
-     "script": "https://raw.githubusercontent.com/ugg999999/other/main/elsbjsb.js",
-     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
-    },
+     "repo": "https://github.com/ugg999999/other/blob/main/elsbjsb/elsbjsb.js",
+     "script": "https://raw.githubusercontent.com/ugg999999/other/main/elsbjsb/elsbjsb.js",
+     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/elsbjsb/elsbjsb.png", "https://raw.githubusercontent.com/ugg999999/other/main/elsbjsb/elsbjsb.png"]
+    },*/
     {
      "id": "yyd",
      "name": "云阅读",
@@ -362,9 +362,9 @@
          "type": "number",
          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
        }],
-    "repo": "https://github.com/ugg999999/other/blob/main/yyd.js",
-    "script": "https://raw.githubusercontent.com/ugg999999/other/main/yyd.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png", "https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    "repo": "https://github.com/ugg999999/other/blob/main/yyd/yyd.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.png", "https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.png"]
     },
     {
      "id": "xfapp",
@@ -379,26 +379,92 @@
          "type": "text",
          "desc": "token 列表，以@间隔分开"
        }],
-    "repo": "https://github.com/ugg999999/other/blob/main/xfapp.js",
-    "script": "https://raw.githubusercontent.com/ugg999999/other/main/xfapp.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
+    "repo": "https://github.com/ugg999999/other/blob/main/xf/xfapp.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.png","https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.png"]
     },
+//    {
+//      "id": "byapp",
+//      "name": "博越APP",
+//      "author": "@ugg999999",
+//      "keys": ["byPhone"],
+//      "settings": [
+//        {
+//          "id": "byPhone",
+//          "name": "博越APP账户密码",
+//          "val": "",
+//          "type": "text",
+//          "desc": "token 列表，以@间隔分开"
+//        }],
+//    "repo": "https://github.com/ugg999999/other/blob/main/byapp.js",
+//    "script": "https://raw.githubusercontent.com/ugg999999/other/main/byapp.js",
+//    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.png","https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.png"]
+//    },
     {
-      "id": "byapp",
-      "name": "博越APP",
+      "id": "jztt",
+      "name": "九章头条",
+      "keys": ["jztturl", "jztturl2", "jztturl3", "jztturl4", "jztturl5", "jztturl6", "jztturl7", "jztturl8", "jztturl9", "jztturl10", "jztturl11", "jztturl12", "jztturl13", "jztturl14", "jztturl15", "jztturl16", "jztturl17", "jztturl18", "jztturl19", "jztturl20"],
       "author": "@ugg999999",
-      "keys": ["byPhone"],
       "settings": [
         {
-          "id": "byPhone",
-          "name": "博越APP账户密码",
-          "val": "",
-          "type": "text",
-          "desc": "token 列表，以@间隔分开"
+          "id": "jzttSuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        }, 
+        {
+          "id": "jzttCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        }, 
+        {
+          "id": "jzttXH",
+          "name": "循环获取ck",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        }, 
+        {
+          "id": "jzttTXTX",
+          "name": "txtx",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        }, 
+        {
+          "id": "jzttSC",
+          "name": "sc",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        }, 
+        {
+          "id": "jzttnotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        }, 
+        {
+          "id": "jzttnotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+        }, 
+        {
+          "id": "jzttMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
         }],
-    "repo": "https://github.com/ugg999999/other/blob/main/byapp.js",
-    "script": "https://raw.githubusercontent.com/ugg999999/other/main/byapp.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/tb.png","https://raw.githubusercontent.com/ugg999999/other/main/tb.png"]
-    }
+    "repo": "https://github.com/ugg999999/other/blob/main/jztt/jztt.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.jpg", "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.jpg"]
+    },
    ]
 }
