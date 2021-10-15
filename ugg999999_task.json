@@ -1,0 +1,35 @@
+{
+ "name": "ugg999999 task",
+ "description": "https://github.com/ugg999999/other",
+ "task": [
+    {
+      "config": "0 5 */1 * * * https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.js, tag=云阅读, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png, enabled=true"
+    }, 
+    {
+      "config": "0 8 * * * https://raw.githubusercontent.com/ugg999999/other/main/jrtt/jrtt.js, tag=今日头条, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png, enabled=true"
+    },
+    {
+      "config": "0 0 */1 * * * https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.js, tag=九章头条, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/jztt.jpg, enabled=true"
+    },
+    {
+      "config": "*/30 8-23 * * * https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsj.js, tag=电视家, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png, enabled=true"
+    },
+    {
+      "config": "*/30 8-22 * * * https://raw.githubusercontent.com/ugg999999/other/main/qhb/qhb.js, tag=趣红包, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/qhb.png, enabled=true"
+    },
+    {
+      "config": "10 8-22 * * * https://raw.githubusercontent.com/ugg999999/other/main/qjp/qjp.js, tag=趣键盘, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/qjp.png, enabled=true"
+    },
+    {
+      "config": "0 10 * * * https://raw.githubusercontent.com/ugg999999/other/main/shuiqi/shuiqi.js, tag=书旗小说, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/shuiqi.png, enabled=true"
+    },
+    {
+      "config": "0 22 * * * https://raw.githubusercontent.com/ugg999999/other/main/tx/txstockqx.js, tag=腾讯自选股, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png, enabled=true"
+    },
+    {
+      "config": "0 0 1 1 * https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.js, tag=溆锋, img-url=https://raw.githubusercontent.com/ugg999999/other/main/img/xfapp.png, enabled=true"
+    }
+
+    
+    ]
+}

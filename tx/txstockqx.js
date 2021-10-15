@@ -6,7 +6,7 @@
  ┋┋ ┋╭╮┋╭┉╯┋ ┋┋ ┋╰╯┋┋╰┉╮┋╭╮┋
  ╰╯ ╰╯╰╯╰┉┉╯ ╰╯ ╰┉┉╯╰┉┉╯╰╯╰╯
 //!!!:
-【BOXJS】：https://raw.githubusercontent.com/CenBoMin/GithubSync/main/cenbomin.box.json
+【BOXJS】：https://raw.githubusercontent.com/ugg999999/other/main/ugg999999.boxjs.json
 #运行脚本前请先下载app,登录。。。手动完成成长任务,有钱
 #8.8打卡任务也手动做,建议只打卡4个成功即可,第5个基本拿不到
 #微信小程序-腾讯自选股和app的日常任务是分开的,毛比较少,手动做吧！
@@ -14,10 +14,10 @@
 https://zqact01.tenpay.com/activity/page/200814appInvite/#/new?stat_data=Ovy34p00pn019&invite_code=i02Fvx18dc&nick_name=%E9%99%88%E6%9F%8F%E9%8A%98&head_url=https%3A%2F%2Fthirdwx.qlogo.cn%2Fmmopen%2Fvi_32%2FQ0j4TwGTfTLWqFtqq3JGenAvqEnZhiazoeCicjicAZhEiaCib1LqSCHtC8sPLbG52YiajLZh8VRkY8bWu0uu24AKjgfA%2F132
 特别感谢烧烤哥,loon用户可以用这个专门的conf：https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txsloon_cookie.conf
 **** 重写引用 ****
-app：https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/qxr/txs_cookie.conf
-微信小程序：https://github.com/gitehabu/YI-SHI-XIAO/blob/main/100000/qxr/txs_wxcookie.conf
+app：https://github.com/ugg999999/other/blob/main/tx/txs_cookie.conf
+微信小程序：https://github.com/ugg999999/other/blob/main/tx/txs_wxcookie.conf
 **** 定时任务 ****
-0 8 * * * https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txstockqx.js
+0 8 * * * https://raw.githubusercontent.com/ugg999999/other/main/tx/txstockqx.js
 **** 食用方法 ****
 到[重写]-[引用],启动重写抓取cookie
 taskheader：打开app- 立即获取
@@ -27,7 +27,7 @@ userkey：点击左上头像-进入即获取
 signheader：禁用获取cookie重写,重新打开app,点击左上头像-进入,等待我的福利下面活动加载成功,启用获取cookie重写,然后再点击第一个猜涨跌活动的页面就能够获取到了。。。
 signkey：禁用获取cookie重写,重新打开app,点击左上头像-进入,等待我的福利下面活动加载成功,启用获取cookie重写,然后再点击第一个猜涨跌活动的页面就能够获取到了。。。
 ！！！！！微信和app重写有冲突,不能两个同时开
-！！！！！必须先关闭app重写,在加入微信小程序重写https://raw.githubusercontent.com/CenBoMin/GithubSync/main/TXSTOCK/txs_wxcookie.conf,启用之后就可以去微信小程序做任务获取cookie
+！！！！！必须先关闭app重写,在加入微信小程序重写https://raw.githubusercontent.com/ugg999999/other/main/tx/txs_wxcookie.conf,启用之后就可以去微信小程序做任务获取cookie
 wxtaskkey:进入微信小程序,做一个任务就可以获取,不行就在做下一个,社区或者分享型任务先试试
 ！！！！！获取完cookie,务必关闭重写引用
 #脚本一天只运行一次,本脚本虽然加了防呆机制,但是还是尽量避免运行多次
