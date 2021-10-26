@@ -1,9 +1,9 @@
 /*
 [task_local]
-30 23 * * * https://raw.githubusercontent.com/justplayscript/ddxp/main/ddxpxd.js, tag=叮咚下单后自动领取, enabled=true
+30 23 * * * https://raw.githubusercontent.com/justplayscript/ddxp/main/ddxpxd.js, tag=叮咚自动喂鱼浇水, enabled=true
 */
 
-const $ = new Env('叮咚买菜下单后自动领取');
+const $ = new Env('叮咚自动喂鱼浇水');
 const dr = "@"
 let ddxpurlArr = [],
     ddxphdArr = [],
