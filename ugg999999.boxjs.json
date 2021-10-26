@@ -155,139 +155,139 @@
       "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/shuqi.png","https://raw.githubusercontent.com/ugg999999/other/main/img/shuqi.png"]
     },
     {
-     "id": "jrtt",
-     "name": "今日头条极速版",
-     "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3", "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4", "signurl5", "signkey5", "farmurl5", "farmkey5", "readurl5", "readkey5", "signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6", "signurl7", "signkey7", "farmurl7", "farmkey7", "readurl7", "readkey7", "signurl8", "signkey8", "farmurl8", "farmkey8", "readurl8", "readkey8", "signurl9", "signkey9", "farmurl9", "farmkey9", "readurl9", "readkey9", "signurl10", "signkey10", "farmurl10", "farmkey10", "readurl10", "readkey10", "signurl11", "signkey11", "farmurl11", "farmkey11", "readurl11", "readkey11", "signurl12", "signkey12", "farmurl12", "farmkey12", "readurl12", "readkey12", "signurl13", "signkey13", "farmurl13", "farmkey13", "readurl13", "readkey13"],
-     "author": "@ugg999999",
-     "settings": [
-      {
-        "id": "tz",
-        "name": "静默运行",
-        "val": "1",
-        "type": "number",
-        "desc": "0为不通知，1为全部通知"
-      },
-      {
-        "id": "jrttsetting",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },
-      {
-        "id": "jrttcount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      }],
+      "id": "jrtt",
+      "name": "今日头条极速版",
+      "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3", "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4", "signurl5", "signkey5", "farmurl5", "farmkey5", "readurl5", "readkey5", "signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6", "signurl7", "signkey7", "farmurl7", "farmkey7", "readurl7", "readkey7", "signurl8", "signkey8", "farmurl8", "farmkey8", "readurl8", "readkey8", "signurl9", "signkey9", "farmurl9", "farmkey9", "readurl9", "readkey9", "signurl10", "signkey10", "farmurl10", "farmkey10", "readurl10", "readkey10", "signurl11", "signkey11", "farmurl11", "farmkey11", "readurl11", "readkey11", "signurl12", "signkey12", "farmurl12", "farmkey12", "readurl12", "readkey12", "signurl13", "signkey13", "farmurl13", "farmkey13", "readurl13", "readkey13"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "tz",
+          "name": "静默运行",
+          "val": "1",
+          "type": "number",
+          "desc": "0为不通知，1为全部通知"
+        },
+        {
+          "id": "jrttsetting",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        },
+        {
+          "id": "jrttcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "需要几个账号，数字为几"
+        }],
     "repo": "https://github.com/ugg999999/other/blob/main/jrtt/jrtt.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/jrtt/jrtt.js",
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png"]
     },
     {
-     "id": "qjp",
-     "name": "趣键盘极速版",
-     "keys": ["qjphd","qjphd2", "qjphd3", "qjphd4", "qjphd5", "qjphd6", "qjphd7", "qjphd8", "qjphd9", "qjphd10"],
-     "author": "@ugg999999",
-     "settings": [
-      {
-        "id": "qjpstatus",
-        "name": "当前账号",
-        "val": "1",
-        "type": "number",
-        "desc": "当前账号对应"
-      },
-      {
-        "id": "qjpcount",
-        "name": "账号个数",
-        "val": "1",
-        "type": "number",
-        "desc": "需要几个账号，数字为几"
-      }],
+      "id": "qjp",
+      "name": "趣键盘极速版",
+      "keys": ["qjphd","qjphd2", "qjphd3", "qjphd4", "qjphd5", "qjphd6", "qjphd7", "qjphd8", "qjphd9", "qjphd10"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "qjpstatus",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        },
+        {
+          "id": "qjpcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "需要几个账号，数字为几"
+        }],
      "repo": "https://github.com/ugg999999/other/blob/main/qjp/qjp.js",
      "script": "https://raw.githubusercontent.com/ugg999999/other/main/qjp/qjp.js",
      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/qjp.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/qjp.png"]
     },
     {
-     "id": "yyd",
-     "name": "云阅读",
-     "keys": ["yydheader","yydheader2","yydheader3","yydheader4","yydheader5","yydheader6","yydheader7","yydheader8","yydheader9","yydheader10","yydheader11","yydheader12","yydheader13","yydheader14","yydheader15"],
-     "author": "@ugg999999",
-     "settings": [
-       {
-         "id": "yydSuffix",
-         "name": "当前账号",
-         "val": "1",
-         "type": "number",
-         "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-       }, 
-       {
-         "id": "yydCount",
-         "name": "账号个数",
-         "val": "1",
-         "type": "number",
-         "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-       }, 
-       {
-         "id": "yydXH",
-         "name": "循环获取ck",
-         "val": "0",
-         "type": "number",
+      "id": "yyd",
+      "name": "云阅读",
+      "keys": ["yydheader","yydheader2","yydheader3","yydheader4","yydheader5","yydheader6","yydheader7","yydheader8","yydheader9","yydheader10","yydheader11","yydheader12","yydheader13","yydheader14","yydheader15"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "yydSuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        },
+        {
+          "id": "yydCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "yydXH",
+          "name": "循环获取ck",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "yydTXTX",
+          "name": "txtx",
+          "val": "0",
+          "type": "number",
          "desc": "0关闭，1打开，默认关闭"
-       }, 
-       {
-         "id": "yydTXTX",
-         "name": "txtx",
-         "val": "0",
-         "type": "number",
-         "desc": "0关闭，1打开，默认关闭"
-       }, 
-       {
-         "id": "yydSC",
-         "name": "sc",
-         "val": "0",
-         "type": "number",
-         "desc": "0关闭，1打开，默认关闭"
-       }, 
-       {
-         "id": "yydnotifyttt",
-         "name": "推送控制",
-         "val": "1",
-         "type": "number",
-         "desc": "0关闭，1推送,默认12点以及23点推送"
-       }, 
-       {
-         "id": "yydnotifyInterval",
-         "name": "通知控制",
-         "val": "2",
-         "type": "number",
-         "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
-       }, 
-       {
-         "id": "yydMinutes",
-         "name": "推送-通知 分钟控制",
-         "val": "10",
-         "type": "number",
-         "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-       }],
+        },
+        {
+          "id": "yydSC",
+          "name": "sc",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "yydnotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        },
+        {
+          "id": "yydnotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+        },
+        {
+          "id": "yydMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        }],
     "repo": "https://github.com/ugg999999/other/blob/main/yyd/yyd.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.js",
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png"]
     },
     {
-     "id": "xfapp",
-     "name": "溆锋APP",
-     "author": "@ugg999999",
-     "keys": ["xfPhone"],
-     "settings": [
-       {
-         "id": "xfPhone",
-         "name": "溆锋APP账户密码",
-         "val": "",
-         "type": "text",
-         "desc": "token 列表，以@间隔分开"
-       }],
+      "id": "xfapp",
+      "name": "溆锋APP",
+      "author": "@ugg999999",
+      "keys": ["xfPhone"],
+      "settings": [
+        {
+          "id": "xfPhone",
+          "name": "溆锋APP账户密码",
+          "val": "",
+          "type": "text",
+          "desc": "token 列表，以@间隔分开"
+        }],
     "repo": "https://github.com/ugg999999/other/blob/main/xf/xfapp.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.js",
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/xfapp.png","https://raw.githubusercontent.com/ugg999999/other/main/img/xfapp.png"]
@@ -359,22 +359,87 @@
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jztt.jpg", "https://raw.githubusercontent.com/ugg999999/other/main/img/jztt.jpg"]
     },
     {
-     "id": "txstockapp",
-     "name": "自选羊毛股",
-     "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cash", "cashheader"],
-     "author": "@ugg999999",
-     "settings": [
-       {
-         "id": "cash",
-         "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
-         "val": "",
-         "type": "number",
-         "desc": "默认为0,不自动提现"
-       }],
+      "id": "txstockapp",
+      "name": "自选羊毛股",
+      "keys": ["signheader", "signkey", "taskheader", "taskkey", "userheader", "userkey", "wxtaskkey", "cash", "cashheader"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "cash",
+          "name": "提现开关:0,不自动提现;1，提现1元；5，提现5元",
+          "val": "",
+          "type": "number",
+          "desc": "默认为0,不自动提现"
+        }],
     "repo": "https://github.com/ugg999999/other/blob/main/tx/txstockqx.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/tx/txstockqx.js",
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png"]
-   }
-
+    },
+    {
+      "id": "ddgy",
+      "name": "弟弟果园",
+      "keys": ["ddgyurl","ddgyheader","ddgyurl2","ddgyheader2","ddgyurl3","ddgyheader3","ddgyurl4","ddgyheader4","ddgyurl5","ddgyheader5","ddgyurl6","ddgyheader6","ddgyurl7","ddgyheader7","ddgyurl8","ddgyheader8","ddgyurl9","ddgyheader9","ddgyurl10","ddgyheader10","ddgyurl11","ddgyheader11","ddgyurl12","ddgyheader12","ddgyurl13","ddgyheader13","ddgyurl14","ddgyheader14","ddgyurl15","ddgyheader15"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "ddgySuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        },
+        {
+          "id": "ddgyCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "ddgyXH",
+          "name": "循环获取ck",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "ddgyTXTX",
+          "name": "txtx",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "ddgySC",
+          "name": "sc",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "ddgynotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        },
+        {
+          "id": "ddgynotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+        },
+        {
+          "id": "ddgyMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        }],
+    "repo": "https://github.com/ugg999999/other/blob/main/ddgy/ddgy.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/ddgy.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/ddgy.png"],
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/ddgy/ddgy.js"
+    }
 ]
 }
