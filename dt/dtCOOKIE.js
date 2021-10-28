@@ -53,7 +53,7 @@ module.exports = {
       "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
     }],
     "repo": "https://github.com/ugg999999/other/blob/main/dt/dt.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/dt/tom.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/dt/tom.png"],
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/dt.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/dt.png"],
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/dt/dt.js",
     "icon": "https://raw.githubusercontent.com/ugg999999/other/main/img/icon.jpg",
     "favIcon": "mdi-star-outline",
