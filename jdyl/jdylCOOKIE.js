@@ -52,10 +52,9 @@ module.exports = {
       "type": "number",
       "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
     }],
-    "repo": "https://gitee.com/tom210120/tom/raw/master/JDYL/jdyl.js",
-    "icons": ["https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg", "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"],
-    "script": "https://gitee.com/tom210120/tom/raw/master/JDYL/jdyl.js",
-    "icon": "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg",
+    "repo": "https://github.com/ugg999999/other/blob/main/jdyl/jdyl.js",
+    "script": "https://raw.githubusercontent.com/ugg999999/other/main/jdyl/jdyl.js",
+    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jdyl.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jdyl.png"],
     "favIcon": "mdi-star-outline",
     "favIconColor": "grey",
     "datas": [{
