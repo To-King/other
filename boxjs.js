@@ -7,8 +7,8 @@
     "apps": [
 
         {
-            "id": "jdyl",
-            "name": "捷达有礼",
+            "id": "dsj",
+            "name": "电视家APP",
             "keys": ["dsjheader", "dsjuserck","dsjheader2", "dsjuserck2"],
             "author": "@ugg999999",
             "settings": [{
