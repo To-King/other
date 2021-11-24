@@ -2,7 +2,7 @@ module.exports = {
   "id": "jztt",
   "name": "九章头条",
   "keys": ["jztturl", "jztturl2", "jztturl3", "jztturl4", "jztturl5"],
-  "author": "@tom",
+  "author": "@ugg999999",
   "settings": [{
     "id": "jzttSuffix",
     "name": "当前账号",
@@ -52,9 +52,9 @@ module.exports = {
     "type": "number",
     "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
   }],
-  "repo": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.js",
+  "repo": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jzread.js",
   "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.jpg", "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.jpg"],
-  "script": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.js",
+  "script": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jzread.js",
   "icon": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.jpg",
   "favIcon": "mdi-star-outline",
   "favIconColor": "grey",
