@@ -31,7 +31,7 @@
     {
       "id": "dsj",
       "name": "电视家APP",
-      "keys": ["dsjheader", "dsjtx", "dsjheader2", "dsjtx2", "dsjheader3", "dsjtx3", "dsjheader4", "dsjtx4", "dsjheader5", "dsjtx5", "dsjheader6", "dsjtx6", "dsjheader7", "dsjtx7", "dsjheader8", "dsjtx8", "dsjheader9", "dsjtx9", "dsjheader10", "dsjtx10", "dsjheader11", "dsjtx11", "dsjheader12", "dsjtx12", "dsjheader13", "dsjtx13", "dsjheader14", "dsjtx14", "dsjheader15", "dsjtx15", "dsjheader16", "dsjtx16", "dsjheader17", "dsjtx17", "dsjheader18", "dsjtx18", "dsjheader19", "dsjtx19", "dsjheader20", "dsjtx20"],
+      "keys": ["dsjheader", "dsjtx","dsjuserck", "dsjheader2", "dsjtx2","dsjuserck2", "dsjheader3", "dsjtx3","dsjuserck3", "dsjheader4", "dsjtx4","dsjuserck4", "dsjheader5", "dsjtx5","dsjuserck5", "dsjheader6", "dsjtx6","dsjuserck6"],
       "author": "@ugg999999",
       "settings": [
         {
@@ -96,6 +96,13 @@
           "val": "10",
           "type": "number",
           "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        },
+        {
+          "id": "dsjuserck",
+          "name": "账号",
+          "val": "2",
+          "type": "number",
+          "desc": "指定账号"
         }],
       "repo": "https://github.com/ugg999999/other/blob/main/dsj/dsj.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsj.js",
@@ -617,6 +624,23 @@
     "repo": "https://github.com/ugg999999/other/blob/main/jdyl/jdyl.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/jdyl/jdyl.js",
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jdyl.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jdyl.png"]
+    },
+    {
+      "id":"cydxsgame",
+      "name":"成语大学士",
+      "author":"@ugg999999",
+      "keys":["cydxsgame"],
+      "settings": [
+        {
+          "id": "cydxsuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }],
+    "repo":"https://github.com/ugg999999/other/blob/main/cydxs/cydxsgame.js",
+    "script":"https://raw.githubusercontent.com/ugg999999/other/main/cydxs/cydxsgame.js",
+    "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/cydxs.png","https://raw.githubusercontent.com/ugg999999/other/main/img/cydxs.png"]
     }
 ]
 }
