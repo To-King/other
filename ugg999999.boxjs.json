@@ -631,6 +631,40 @@
       "repo": "https://github.com/ugg999999/other/blob/main/10010/10010.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/10010/10010.js",
       "icons": ["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10010.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10010.png"]
+    },
+    {
+      "id":"cydxsgame",
+      "name":"成语大学士",
+      "author":"@ugg999999",
+      "keys":["cydxsgame"],
+      "settings": [
+        {
+          "id": "cydxsuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/cydxs/cydxsgame.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/cydxs/cydxsgame.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/cydxs.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/cydxs.png"]
+    },
+    {
+      "id":"dtwzgame",
+      "name":"答题王者",
+      "author":"@ugg999999",
+      "keys":["dtwzgame"],
+      "settings": [
+        {
+          "id": "dtwzuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/dywz/dtwzgame.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/dtwz/dtwzgame.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dtwz.png","https://github.com/bluesmallpig/scripts/blob/main/img/wzdt.png?raw=true"]
     }
 ]
 }
