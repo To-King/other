@@ -211,30 +211,6 @@
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png"]
     },
     {
-      "id": "qjp",
-      "name": "趣键盘极速版",
-      "keys": ["qjphd","qjphd2", "qjphd3", "qjphd4", "qjphd5", "qjphd6", "qjphd7", "qjphd8", "qjphd9", "qjphd10"],
-      "author": "@ugg999999",
-      "settings": [
-        {
-          "id": "qjpstatus",
-          "name": "当前账号",
-          "val": "1",
-          "type": "number",
-          "desc": "当前账号对应"
-        },
-        {
-          "id": "qjpcount",
-          "name": "账号个数",
-          "val": "1",
-          "type": "number",
-          "desc": "需要几个账号，数字为几"
-        }],
-     "repo": "https://github.com/ugg999999/other/blob/main/qjp/qjp.js",
-     "script": "https://raw.githubusercontent.com/ugg999999/other/main/qjp/qjp.js",
-     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/qjp.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/qjp.png"]
-    },
-    {
       "id": "yyd",
       "name": "云阅读",
       "keys": ["yydheader","yydheader2","yydheader3","yydheader4","yydheader5","yydheader6","yydheader7","yydheader8","yydheader9","yydheader10","yydheader11","yydheader12","yydheader13","yydheader14","yydheader15"],
@@ -299,23 +275,6 @@
     "repo": "https://github.com/ugg999999/other/blob/main/yyd/yyd.js",
     "script": "https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.js",
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png"]
-    },
-    {
-      "id": "xfapp",
-      "name": "溆锋APP",
-      "author": "@ugg999999",
-      "keys": ["xfPhone"],
-      "settings": [
-        {
-          "id": "xfPhone",
-          "name": "溆锋APP账户密码",
-          "val": "",
-          "type": "text",
-          "desc": "token 列表，以@间隔分开"
-        }],
-    "repo": "https://github.com/ugg999999/other/blob/main/xf/xfapp.js",
-    "script": "https://raw.githubusercontent.com/ugg999999/other/main/xf/xfapp.js",
-    "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/xfapp.png","https://raw.githubusercontent.com/ugg999999/other/main/img/xfapp.png"]
     },
     {
       "id": "jztt",
@@ -564,23 +523,6 @@
     "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/dt.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/dt.png"]
     },
     {
-      "id":"cydxsgame",
-      "name":"成语大学士",
-      "author":"@ugg999999",
-      "keys":["cydxsgame"],
-      "settings": [
-        {
-          "id": "cydxsuserck",
-          "name": "当前账号",
-          "val": "1",
-          "type": "number",
-          "desc": "当前账号对应"
-        }],
-    "repo":"https://github.com/ugg999999/other/blob/main/cydxs/cydxsgame.js",
-    "script":"https://raw.githubusercontent.com/ugg999999/other/main/cydxs/cydxsgame.js",
-    "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/cydxs.png","https://raw.githubusercontent.com/ugg999999/other/main/img/cydxs.png"]
-    },
-    {
       "id": "10000",
       "name": "10000",
       "keys": ["chavy_signheader_10000"],
@@ -665,6 +607,40 @@
       "repo":"https://github.com/ugg999999/other/blob/main/dywz/dtwzgame.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/dtwz/dtwzgame.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dtwz.png","https://github.com/bluesmallpig/scripts/blob/main/img/wzdt.png?raw=true"]
+    },
+    {
+      "id":"dzlapp",
+      "name":"多走路",
+      "author":"@ugg999999",
+      "keys":["dzlapp"],
+      "settings": [
+        {
+          "id": "dzluserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/dzl/dzl.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/dzl/dzl.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dzl.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dzl.png"]
+    },
+    {
+      "id":"qhbdspapp",
+      "name":"趣红包短视频",
+      "author":"@ugg999999",
+      "keys":["qhbdspapp"],
+      "settings": [
+        {
+          "id": "qhbdspuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/qhb/qhbdspapp.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/qhb/qhbdspapp.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/qhb.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/qhb.png"]
     }
 ]
 }
