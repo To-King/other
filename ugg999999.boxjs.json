@@ -599,8 +599,38 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/10000/10000.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/10000/10000.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10000.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10000.png"
-      ]
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10000.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10000.png"]
+    },
+    {
+      "id": "10010",
+      "name": "10010",
+      "author": "@ugg999999",
+      "keys": [
+        "chavy_tokenurl_10010",
+        "chavy_tokenheader_10010",
+        "chavy_signurl_10010",
+        "chavy_signheader_10010",
+        "chavy_loginlotteryurl_10010",
+        "chavy_loginlotteryheader_10010",
+        "chavy_findlotteryurl_10010",
+        "chavy_findlotteryheader_10010"
+      ],
+      "settings": [
+        { "id": "chavy_golottery_10010",
+          "name": "天天抽奖",
+          "val": true,
+          "type": "boolean",
+          "desc": "天天抽奖开关"
+        },
+        {
+          "id": "chavy_gosign_10010",
+          "name": "签到", "val": true,
+          "type": "boolean",
+          "desc": "签到开关"
+        }],
+      "repo": "https://github.com/ugg999999/other/blob/main/10010/10010.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/10010/10010.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10010.png","https://raw.githubusercontent.com/ugg999999/other/blob/main/img/10010.png"]
     }
 ]
 }
