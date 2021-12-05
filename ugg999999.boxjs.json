@@ -676,6 +676,44 @@
       "repo": "https://github.com/ugg999999/other/blob/main/qkhq/qkhq.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/qkhq/qkhq.js",
       "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/qkhq.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/qkhq.png"]
+    },
+    {
+      "id":"dsjapp",
+      "name":"电视家",
+      "keys":["dsjapp"],
+      "author":"@ugg999999",
+      "settings": [
+        {
+          "id": "dsjuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "dsjactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "txamount",
+          "name": "提现金额",
+          "val": "1,2",
+          "type": "text",
+          "desc": "自己设定金额，用英文的逗号隔开"
+        }],
+      "repo":"https://github.com/bluesmallpig/scripts",
+      "script":"https://github.com/",
+      "icons":["https://github.com/bluesmallpig/scripts/blob/main/img/dsj-mini.png?raw=true","https://github.com/bluesmallpig/scripts/blob/main/img/dsj.png?raw=true"]
     }
 ]
 }
