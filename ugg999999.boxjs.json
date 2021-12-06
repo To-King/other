@@ -149,13 +149,6 @@
           "val": "10",
           "type": "number",
           "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-        },
-        {
-          "id": "dsjuserck",
-          "name": "账号",
-          "val": "2",
-          "type": "number",
-          "desc": "指定账号"
         }],
       "repo": "https://github.com/ugg999999/other/blob/main/dsj/dsj.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsj.js",
@@ -711,9 +704,40 @@
           "type": "text",
           "desc": "自己设定金额，用英文的逗号隔开"
         }],
-      "repo":"https://github.com/bluesmallpig/scripts",
-      "script":"https://github.com/",
-      "icons":["https://github.com/bluesmallpig/scripts/blob/main/img/dsj-mini.png?raw=true","https://github.com/bluesmallpig/scripts/blob/main/img/dsj.png?raw=true"]
+      "repo":"https://github.com/ugg999999/other/blob/main/dsj/dsjxx.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/dsj/dsjxx.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png","https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png"]
+    },
+    {
+      "id":"dyjsbapp",
+      "name":"抖音极速版app",
+      "author":"@ugg999999",
+      "keys":["dyjsbapp"],
+      "settings": [
+        {
+          "id": "dyjsbkey",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "dyjsbactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/dyjsb/dyjsb.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/dyjsb/dyjsb.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png","https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png"]
     }
 ]
 }
