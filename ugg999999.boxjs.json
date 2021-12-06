@@ -544,6 +544,20 @@
           "val": "1",
           "type": "number",
           "desc": "当前账号对应"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "dzlactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
         }],
       "repo":"https://github.com/ugg999999/other/blob/main/dzl/dzl.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/dzl/dzl.js",
