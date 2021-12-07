@@ -752,6 +752,23 @@
       "repo":"https://github.com/ugg999999/other/blob/main/dyjsb/dyjsb.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/dyjsb/dyjsb.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png","https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png"]
+    },
+    {
+      "id":"dawapp",
+      "name":"都爱玩",
+      "author":"@ugg999999",
+      "keys":["dawapp"],
+      "settings": [
+        {
+          "id": "dawuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/daw/daw.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/daw/daw.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/daw.png","https://raw.githubusercontent.com/ugg999999/other/main/img/daw.png"]
     }
 ]
 }
