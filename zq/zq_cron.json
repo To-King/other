@@ -1,0 +1,178 @@
+{
+  "name": "中青看点定时任务订阅",
+  "desc": "无",
+  "date": "2021-08-05 20:32:08",
+  "author": "@ugg999999",
+  "resource": "https://raw.githubusercontent.com/ugg999999/other/main/zq/zq_cron.json",
+  "list": [
+    {
+      "name": "中青-签到",
+      "type": "cron",
+      "time": "20 7 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "zq_qd.js"
+      }
+    },
+    {
+      "name": "中青-文章",
+      "type": "cron",
+      "time": "10 15 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_wz.js"
+      }
+    },
+    {
+     "name": "中青-看看赚",
+      "type": "cron",
+      "time": "10 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_kkz.js"
+      }
+    },
+    {
+      "name": "中青-火爆转发",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_share.js"
+      }
+    },
+    {
+      "name": "中青-福利视频",
+      "type": "cron",
+      "time": "0 9,13,19 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_Adv_video.js"
+      }
+    },
+    {
+      "name": "中青-每日任务宝箱领取",
+      "type": "cron",
+      "time": "10 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_box.js"
+      }
+    },
+    {
+      "name": "中青-每日收益统计",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_today_score.js"
+      }
+    },
+    {
+      "name": "中青-好友签到红包",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_friendSign.js"
+      }
+    },
+    {
+      "name": "中青-抽奖",
+      "type": "cron",
+      "time": "30 20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_Rotary.js"
+      }
+    },
+    {
+      "name": "中青-打卡赚",
+      "type": "cron",
+      "time": "34 5,9 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_wakeup.js"
+      }
+    },
+    {
+      "name": "中青-搜索赚",
+      "type": "cron",
+      "time": "10 12 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_ssz.js"
+      }
+    },
+    {
+      "name": "中青-浏览赚",
+      "type": "cron",
+      "time": "10 11 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_llz.js"
+      }
+    },
+    {
+      "name": "中青-阅读翻倍",
+      "type": "cron",
+      "time": "34 5 * * 1",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_double.js"
+      }
+    },
+    {
+      "name": "中青-自动提现",
+      "type": "cron",
+      "time": "25 10 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_withdraw.js"
+      }
+    },
+    {
+      "name": "中青-5/60分钟",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_5_60.js"
+      }
+    },
+    {
+      "name": "中青-看视频",
+      "type": "cron",
+      "time": "5 14 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_ksp.js"
+      }
+    },
+    {
+      "name": "中青-每日任务",
+      "type": "cron",
+      "time": "5 13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "zq_oneday.js"
+      }
+    }
+  ]
+}
