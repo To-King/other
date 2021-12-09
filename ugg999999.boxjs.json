@@ -851,8 +851,7 @@
         }],
       "repo": "https://github.com/ugg999999/other/blob/main/sjb/sjb.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/sjb/sjb.js",
-      "icons": ["https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg", "https://gitee.com/tom210120/tom/raw/master/Tom/Tom.jpg"],
-
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/sjb.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/sjb.png"]
     }
 ]
 }
