@@ -852,6 +852,37 @@
       "repo": "https://github.com/ugg999999/other/blob/main/sjb/sjb.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/sjb/sjb.js",
       "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/sjb.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/sjb.png"]
+    },
+    {
+      "id": "xjaxc",
+      "name": "小鸡爱消除",
+      "keys": ["xjheaders", "xjheaders2", "xjheaders3", "xjheaders4", "xjheaders5"],
+      "author": "@ugg999999",
+      "settings": [
+        {
+          "id": "tz",
+          "name": "静默运行",
+          "val": "1",
+          "type": "number",
+          "desc": "0为不通知，1为全部通知"
+        },
+        {
+          "id": "xjsetting",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        },
+        {
+          "id": "xjcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "需要几个账号，数字为几"
+        }],
+      "repo": "https://github.com/ugg999999/other/blob/main/sjb/sjb.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/xjaxc/xjaxc.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/xjaxc.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/xjaxc.png"]
     }
 ]
 }
