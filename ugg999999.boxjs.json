@@ -740,6 +740,44 @@
       "repo":"https://github.com/ugg999999/other/blob/main/jrttjsb/jrttjsb.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/jrttjsb/jrttjsb.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/jrttjsb.png","https://raw.githubusercontent.com/ugg999999/other/main/img/jrttjsb.png"]
+    },
+    {
+      "id": "jkdapp",
+      "name": "聚看点APP",
+      "author": "@ugg999999",
+      "keys": ["jkdck","jkdck2"],
+      "settings": [
+        {
+          "id": "jkdstatus",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        },
+        {
+          "id": "jkdcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "jkdck",
+          "name": "聚看点CK",
+          "val": "",
+          "type": "text",
+          "desc": "聚看点ck内容"
+        },
+        {
+          "id": "jkdck",
+          "name": "聚看点CK2",
+          "val": "",
+          "type": "text",
+          "desc": "聚看点ck内容"
+        }],
+      "repo": "https://github.com/ugg999999/other/blob/main/jkd/jkdapp.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/jkd/jkdapp.js",
+      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png","https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png"]
     }
 ]
 }
