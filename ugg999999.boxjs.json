@@ -434,7 +434,7 @@
       "id": "qkhq",
       "name": "趣看行情",
       "keys": ["qkhqheader","qkhqheader2","qkhqheader3","qkhqheader4","qkhqheader5"],
-      "author": "@tom",
+      "author": "@ugg999999",
       "settings": [
         {
           "id": "qkhqSuffix",
@@ -778,6 +778,23 @@
       "repo": "https://github.com/ugg999999/other/blob/main/jkd/jkdapp.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/jkd/jkdapp.js",
       "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png","https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png"]
+    },
+    {
+      "id":"kkdapp",
+      "name":"快看点",
+      "author":"@ugg999999",
+      "keys":["kkdheader","kkdcookie","kkdsign"],
+      "settings": [
+        {
+          "id": "kkdspuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "第几个账号，就填几。"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/kkd/kkd.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/kkd/kkd.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png","https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png"]
     }
 ]
 }
