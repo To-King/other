@@ -800,7 +800,7 @@
       "id":"dsjapp",
       "name":"电视家",
       "author":"@ugg999999",
-      "keys":["DSJ_HEADERS","DSJ_DRAWAL"],
+      "keys":["Dsjheaders","Drawals"],
       "settings": [
         {
           "id": "dsjspuserck",
