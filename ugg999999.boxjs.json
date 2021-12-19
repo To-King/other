@@ -803,11 +803,32 @@
       "keys":["Dsjheaders","Drawals"],
       "settings": [
         {
-          "id": "dsjspuserck",
+          "id": "dsjsetting",
           "name": "当前账号",
           "val": "1",
           "type": "number",
           "desc": "第几个账号，就填几。"
+        },
+        {
+          "id": "dsjcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "需要几个账号，数字为几"
+        },
+        {
+          "id": "Dsjheaders",
+          "name": "电视家hearder",
+          "val": "1",
+          "type": "text",
+          "desc": "hearder内容"
+        },
+        {
+          "id": "Drawals",
+          "name": "电视家提现",
+          "val": "1",
+          "type": "text",
+          "desc": "电视家TIXIAN内容"
         }],
       "repo":"https://github.com/ugg999999/other/blob/main/dsj/dianshijia.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/dsj/dianshijia.js",
