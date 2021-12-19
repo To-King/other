@@ -795,6 +795,23 @@
       "repo":"https://github.com/ugg999999/other/blob/main/kkd/kkd.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/kkd/kkd.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png","https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png"]
+    },
+    {
+      "id":"dsjapp",
+      "name":"电视家",
+      "author":"@ugg999999",
+      "keys":["DSJ_HEADERS","DSJ_DRAWAL"],
+      "settings": [
+        {
+          "id": "dsjspuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "第几个账号，就填几。"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/dsj/dianshijia.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/dsj/dianshijia.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png","https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png"]
     }
 ]
 }
