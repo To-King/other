@@ -833,6 +833,37 @@
       "repo":"https://github.com/ugg999999/other/blob/main/dsj/dianshijia.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/dsj/dianshijia.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png","https://raw.githubusercontent.com/ugg999999/other/main/img/dsj.png"]
+    },
+    {
+      "id":"gylmapp",
+      "name":"高佣联盟",
+      "author":"@ugg999999",
+      "keys":["gylmapp"],
+      "settings": [
+        {
+          "id": "gylmuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "gylmactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/gylm/gylm.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/gylm/gylm.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/gylm.png","https://raw.githubusercontent.com/ugg999999/other/main/img/gylm.png"]
     }
 ]
 }
