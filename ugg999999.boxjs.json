@@ -864,6 +864,37 @@
       "repo":"https://github.com/ugg999999/other/blob/main/gylm/gylm.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/gylm/gylm.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/gylm.png","https://raw.githubusercontent.com/ugg999999/other/main/img/gylm.png"]
+    },
+    {
+      "id":"mdmjapp",
+      "name":"美的美居",
+      "author":"@ugg999999",
+      "keys":["mdmjapp"],
+      "settings": [
+        {
+          "id": "mdmjuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "mdmjactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/mdmj/mdmj.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/mdmj/mdmj.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/mdmj.png","https://raw.githubusercontent.com/ugg999999/other/main/img/mdmj.png"]
     }
 ]
 }
