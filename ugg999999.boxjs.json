@@ -745,7 +745,7 @@
       "id": "jkdapp",
       "name": "聚看点APP",
       "author": "@ugg999999",
-      "keys": ["jkdck","jkdck2"],
+      "keys": ["jkdck"],
       "settings": [
         {
           "id": "jkdstatus",
@@ -764,13 +764,6 @@
         {
           "id": "jkdck",
           "name": "聚看点CK",
-          "val": "",
-          "type": "text",
-          "desc": "聚看点ck内容"
-        },
-        {
-          "id": "jkdck",
-          "name": "聚看点CK2",
           "val": "",
           "type": "text",
           "desc": "聚看点ck内容"
@@ -957,6 +950,37 @@
       "repo":"https://github.com/ugg999999/other/blob/main/fqxs/fqxs.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/fqxs/fqxs.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/fqxs.png","https://raw.githubusercontent.com/ugg999999/other/main/img/fqxs.png"]
+    },
+    {
+      "id":"hlhbapp",
+      "name":"欢乐红包",
+      "author":"@ugg999999",
+      "keys":["hlhbapp"],
+      "settings": [
+        {
+          "id": "hlhbuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "hlhbactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }],
+      "repo":"https://github.com/ugg999999/other/blob/main/hlhb/hlhb.js",
+      "script":"https://raw.githubusercontent.com/ugg999999/other/main/hlhb/hlhb.js",
+      "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/hlhb.png","https://raw.githubusercontent.com/ugg999999/other/main/img/hlhb.png"]
     }
 ]
 }
