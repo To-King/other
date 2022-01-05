@@ -981,6 +981,42 @@
       "repo":"https://github.com/ugg999999/other/blob/main/hlhb/hlhb.js",
       "script":"https://raw.githubusercontent.com/ugg999999/other/main/hlhb/hlhb.js",
       "icons":["https://raw.githubusercontent.com/ugg999999/other/main/img/hlhb.png","https://raw.githubusercontent.com/ugg999999/other/main/img/hlhb.png"]
+    },
+        {
+      "id": "qqydapp",
+      "name": "QQ阅读",
+      "author": "@ugg999999",
+      "keys": [
+        "qqydapp"
+      ],
+      "settings": [{
+          "id": "qqyduserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "qqydactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other/blob/main/qqyd/qqyd.js",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/qqyd/qqyd.js",
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/qqyd.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/qqyd.png"
+      ]
     }
 ]
 }
