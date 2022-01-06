@@ -7,7 +7,11 @@
   "apps": [{
       "id": "PushBoxjsTask",
       "name": "V2pTask",
-      "keys": ["v2purl", "v2token", "v2pblacklist"],
+      "keys": [
+        "v2purl",
+        "v2token",
+        "v2pblacklist"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "v2ptaskupdate",
@@ -45,14 +49,22 @@
           "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
         }
       ],
-      "repo": ["https://github.com/ugg999999/other/blob/main/ELECV2PJS/PushTask_elecV2p.js"],
+      "repo": [
+        "https://github.com/ugg999999/other/blob/main/ELECV2PJS/PushTask_elecV2p.js"
+      ],
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/ELECV2PJS/PushTask_elecV2p.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/icon.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/icon.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/icon.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/icon.png"
+      ]
     },
     {
       "id": "PushBoxjsCookie",
       "name": "V2pCookie",
-      "keys": ["v2purl", "v2token"],
+      "keys": [
+        "v2purl",
+        "v2token"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "v2pcookieupdate",
@@ -76,14 +88,21 @@
           "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
         }
       ],
-      "repo": ["https://github.com/CenBoMin/GithubSync/blob/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js"],
+      "repo": [
+        "https://github.com/CenBoMin/GithubSync/blob/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js"
+      ],
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/icon.png", "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/icon.png",
+        "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p.png"
+      ]
     },
     {
       "id": "sqxsapp",
       "name": "书旗小说",
-      "keys": ["sqxsapp"],
+      "keys": [
+        "sqxsapp"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "sqxsuserck",
@@ -109,12 +128,22 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/shuqi/sqxs.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/shuqi/sqxs.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/shuqi.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/shuqi.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/shuqi.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/shuqi.png"
+      ]
     },
     {
       "id": "jrtt",
       "name": "今日头条极速版",
-      "keys": ["signurl", "signkey", "farmurl", "farmkey", "readurl", "readkey", "signurl2", "signkey2", "farmurl2", "farmkey2", "readurl2", "readkey2", "signurl3", "signkey3", "farmurl3", "farmkey3", "readurl3", "readkey3", "signurl4", "signkey4", "farmurl4", "farmkey4", "readurl4", "readkey4", "signurl5", "signkey5", "farmurl5", "farmkey5", "readurl5", "readkey5", "signurl6", "signkey6", "farmurl6", "farmkey6", "readurl6", "readkey6", "signurl7", "signkey7", "farmurl7", "farmkey7", "readurl7", "readkey7", "signurl8", "signkey8", "farmurl8", "farmkey8", "readurl8", "readkey8", "signurl9", "signkey9", "farmurl9", "farmkey9", "readurl9", "readkey9", "signurl10", "signkey10", "farmurl10", "farmkey10", "readurl10", "readkey10", "signurl11", "signkey11", "farmurl11", "farmkey11", "readurl11", "readkey11", "signurl12", "signkey12", "farmurl12", "farmkey12", "readurl12", "readkey12", "signurl13", "signkey13", "farmurl13", "farmkey13", "readurl13", "readkey13"],
+      "keys": [
+        "signurl",
+        "signkey",
+        "farmurl",
+        "farmkey",
+        "readurl",
+        "readkey"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "tz",
@@ -140,12 +169,17 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/jrtt/jrtt.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/jrtt/jrtt.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/jrtt.png"
+      ]
     },
     {
       "id": "yyd",
       "name": "云阅读",
-      "keys": ["yydheader", "yydheader2", "yydheader3", "yydheader4", "yydheader5", "yydheader6", "yydheader7", "yydheader8", "yydheader9", "yydheader10", "yydheader11", "yydheader12", "yydheader13", "yydheader14", "yydheader15"],
+      "keys": [
+        "yydheader"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "yydSuffix",
@@ -206,79 +240,18 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/yyd/yyd.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/yyd/yyd.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png"]
-    },
-    {
-      "id": "jztt",
-      "name": "九章头条",
-      "keys": ["jztturl", "jztturl2", "jztturl3", "jztturl4", "jztturl5", "jztturl6", "jztturl7", "jztturl8", "jztturl9", "jztturl10", "jztturl11", "jztturl12", "jztturl13", "jztturl14", "jztturl15", "jztturl16", "jztturl17", "jztturl18", "jztturl19", "jztturl20"],
-      "author": "@ugg999999",
-      "settings": [{
-          "id": "jzttSuffix",
-          "name": "当前账号",
-          "val": "1",
-          "type": "number",
-          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-        },
-        {
-          "id": "jzttCount",
-          "name": "账号个数",
-          "val": "1",
-          "type": "number",
-          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-        },
-        {
-          "id": "jzttXH",
-          "name": "循环获取ck",
-          "val": "0",
-          "type": "number",
-          "desc": "0关闭，1打开，默认关闭"
-        },
-        {
-          "id": "jzttTXTX",
-          "name": "txtx",
-          "val": "0",
-          "type": "number",
-          "desc": "0关闭，1打开，默认关闭"
-        },
-        {
-          "id": "jzttSC",
-          "name": "sc",
-          "val": "0",
-          "type": "number",
-          "desc": "0关闭，1打开，默认关闭"
-        },
-        {
-          "id": "jzttnotifyttt",
-          "name": "推送控制",
-          "val": "1",
-          "type": "number",
-          "desc": "0关闭，1推送,默认12点以及23点推送"
-        },
-        {
-          "id": "jzttnotifyInterval",
-          "name": "通知控制",
-          "val": "2",
-          "type": "number",
-          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
-        },
-        {
-          "id": "jzttMinutes",
-          "name": "推送-通知 分钟控制",
-          "val": "10",
-          "type": "number",
-          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-        }
-      ],
-      "repo": "https://github.com/ugg999999/other/blob/main/jztt/jztt.js",
-      "script": "https://raw.githubusercontent.com/ugg999999/other/main/jztt/jztt.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jztt.jpg", "https://raw.githubusercontent.com/ugg999999/other/main/img/jztt.jpg"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/yyd.png"
+      ]
     },
     {
       "id": "dzlapp",
       "name": "多走路",
       "author": "@ugg999999",
-      "keys": ["dzlapp"],
+      "keys": [
+        "dzlapp"
+      ],
       "settings": [{
           "id": "dzluserck",
           "name": "当前账号",
@@ -303,13 +276,18 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/dzl/dzl.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/dzl/dzl.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dzl.png", "https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dzl.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dzl.png",
+        "https://raw.githubusercontent.com/ugg999999/other/blob/main/img/dzl.png"
+      ]
     },
     {
       "id": "qhbdspapp",
       "name": "趣红包短视频",
       "author": "@ugg999999",
-      "keys": ["qhbdspapp"],
+      "keys": [
+        "qhbdspapp"
+      ],
       "settings": [{
         "id": "qhbdspuserck",
         "name": "当前账号",
@@ -319,12 +297,19 @@
       }],
       "repo": "https://github.com/ugg999999/other/blob/main/qhb/qhbdspapp.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/qhb/qhbdspapp.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/blob/main/img/qhb.png", "https://raw.githubusercontent.com/ugg999999/other/blob/main/img/qhb.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/blob/main/img/qhb.png",
+        "https://raw.githubusercontent.com/ugg999999/other/blob/main/img/qhb.png"
+      ]
     },
     {
       "id": "txzxg",
       "name": "腾讯自选股APP",
-      "keys": ["TxStockAppUrl", "TxStockAppHeader", "TxStockWxHeader"],
+      "keys": [
+        "TxStockAppUrl",
+        "TxStockAppHeader",
+        "TxStockWxHeader"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "TxStockCash",
@@ -357,12 +342,17 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/txstock/txstock.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/txstock/txstock.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/txstock.png"
+      ]
     },
     {
       "id": "qkhq",
       "name": "趣看行情",
-      "keys": ["qkhqheader", "qkhqheader2", "qkhqheader3", "qkhqheader4", "qkhqheader5"],
+      "keys": [
+        "qkhqheader"
+      ],
       "author": "@ugg999999",
       "settings": [{
           "id": "qkhqSuffix",
@@ -423,13 +413,18 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/qkhq/qkhq.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/qkhq/qkhq.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/qkhq.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/qkhq.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/qkhq.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/qkhq.png"
+      ]
     },
     {
       "id": "dyjsbapp",
       "name": "抖音极速版app",
       "author": "@ugg999999",
-      "keys": ["dyjsbapp"],
+      "keys": [
+        "dyjsbapp"
+      ],
       "settings": [{
           "id": "dyjsbkey",
           "name": "当前账号序号",
@@ -454,13 +449,18 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/dyjsb/dyjsb.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/dyjsb/dyjsb.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/dyjsb.png"
+      ]
     },
     {
       "id": "dawapp",
       "name": "都爱玩",
       "author": "@ugg999999",
-      "keys": ["dawapp"],
+      "keys": [
+        "dawapp"
+      ],
       "settings": [{
         "id": "dawuserck",
         "name": "当前账号序号",
@@ -470,13 +470,18 @@
       }],
       "repo": "https://github.com/ugg999999/other/blob/main/daw/daw.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/daw/daw.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/daw.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/daw.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/daw.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/daw.png"
+      ]
     },
     {
       "id": "ksjsb",
       "name": "快手极速版",
       "author": "@ugg999999",
-      "keys": ["kshd"],
+      "keys": [
+        "kshd"
+      ],
       "settings": [{
         "id": "ksuserck",
         "name": "当前账号序号",
@@ -486,79 +491,18 @@
       }],
       "repo": "https://github.com/ugg999999/other/blob/main/ksjsb/ks_js.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/ksjsb/ks_js.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/ksjsb.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/ksjsb.png"]
-    },
-    {
-      "id": "sjb",
-      "name": "睡觉宝",
-      "keys": ["sjbheader", "sjbheader2", "sjbheader3", "sjbheader4", "sjbheader5", "sjbheader6", "sjbheader7", "sjbheader8", "sjbheader9", "sjbheader10", "sjbheader11", "sjbheader12", "sjbheader13", "sjbheader14", "sjbheader15", "sjbheader16", "sjbheader17", "sjbheader18", "sjbheader19", "sjbheader20"],
-      "author": "@ugg999999",
-      "settings": [{
-          "id": "sjbSuffix",
-          "name": "当前账号",
-          "val": "1",
-          "type": "number",
-          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
-        },
-        {
-          "id": "sjbCount",
-          "name": "账号个数",
-          "val": "1",
-          "type": "number",
-          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
-        },
-        {
-          "id": "sjbXH",
-          "name": "循环获取ck",
-          "val": "1",
-          "type": "number",
-          "desc": "0关闭，1打开，默认关闭"
-        },
-        {
-          "id": "sjbTXTX",
-          "name": "txtx",
-          "val": "0",
-          "type": "number",
-          "desc": "0关闭，1打开，默认关闭"
-        },
-        {
-          "id": "sjbSC",
-          "name": "sc",
-          "val": "0",
-          "type": "number",
-          "desc": "0关闭，1打开，默认关闭"
-        },
-        {
-          "id": "sjbnotifyttt",
-          "name": "推送控制",
-          "val": "1",
-          "type": "number",
-          "desc": "0关闭，1推送,默认12点以及23点推送"
-        },
-        {
-          "id": "sjbnotifyInterval",
-          "name": "通知控制",
-          "val": "2",
-          "type": "number",
-          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
-        },
-        {
-          "id": "sjbMinutes",
-          "name": "推送-通知 分钟控制",
-          "val": "10",
-          "type": "number",
-          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
-        }
-      ],
-      "repo": "https://github.com/ugg999999/other/blob/main/sjb/sjb.js",
-      "script": "https://raw.githubusercontent.com/ugg999999/other/main/sjb/sjb.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/sjb.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/sjb.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/ksjsb.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/ksjsb.png"
+      ]
     },
     {
       "id": "jrttjsbapp",
       "name": "今日头条极速版",
       "author": "@ugg999999",
-      "keys": ["jrttjsbHeader"],
+      "keys": [
+        "jrttjsbHeader"
+      ],
       "settings": [{
         "id": "jrttjsbuserck",
         "name": "当前账号序号",
@@ -568,13 +512,18 @@
       }],
       "repo": "https://github.com/ugg999999/other/blob/main/jrttjsb/jrttjsb.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/jrttjsb/jrttjsb.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jrttjsb.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jrttjsb.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/jrttjsb.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/jrttjsb.png"
+      ]
     },
     {
       "id": "jkdapp",
       "name": "聚看点APP",
       "author": "@ugg999999",
-      "keys": ["jkdck"],
+      "keys": [
+        "jkdck"
+      ],
       "settings": [{
           "id": "jkdstatus",
           "name": "当前账号",
@@ -599,13 +548,20 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/jkd/jkdapp.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/jkd/jkdapp.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/jkd.png"
+      ]
     },
     {
       "id": "kkdapp",
       "name": "快看点",
       "author": "@ugg999999",
-      "keys": ["kkdheader", "kkdcookie", "kkdsign"],
+      "keys": [
+        "kkdheader",
+        "kkdcookie",
+        "kkdsign"
+      ],
       "settings": [{
         "id": "kkdspuserck",
         "name": "当前账号",
@@ -615,13 +571,18 @@
       }],
       "repo": "https://github.com/ugg999999/other/blob/main/kkd/kkd.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/kkd/kkd.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png"
+      ]
     },
     {
       "id": "fqctapp",
       "name": "番茄畅听",
       "author": "@ugg999999",
-      "keys": ["fqctapp"],
+      "keys": [
+        "fqctapp"
+      ],
       "settings": [{
           "id": "fqctuserck",
           "name": "当前账号序号",
@@ -646,13 +607,18 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/fqct/fqctapp.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/fqct/fqctapp.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/fqct.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/fqct.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/fqct.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/fqct.png"
+      ]
     },
     {
       "id": "fqxsapp",
       "name": "番茄小说",
       "author": "@ugg999999",
-      "keys": ["fqxsapp"],
+      "keys": [
+        "fqxsapp"
+      ],
       "settings": [{
           "id": "fqxsuserck",
           "name": "当前账号序号",
@@ -677,7 +643,10 @@
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/fqxs/fqxs.js",
       "script": "https://raw.githubusercontent.com/ugg999999/other/main/fqxs/fqxs.js",
-      "icons": ["https://raw.githubusercontent.com/ugg999999/other/main/img/fqxs.png", "https://raw.githubusercontent.com/ugg999999/other/main/img/fqxs.png"]
+      "icons": [
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/fqxs.png",
+        "https://raw.githubusercontent.com/ugg999999/other/main/img/fqxs.png"
+      ]
     },
     {
       "id": "qqydapp",
