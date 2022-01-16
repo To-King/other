@@ -714,11 +714,33 @@
         }
       ],
       "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
       "icons": [
         "https://github.com/ugg999999/other/main/img/awy.png?raw=true",
         "https://github.com/ugg999999/other/main/img/awy.png?raw=true"
+      ]
+    },
+    {
+      "id": "zcyapp",
+      "name": "走财运",
+      "author": "@ugg999999",
+      "keys": [
+        "zcyCookie"
       ],
-      "script": "https://github.com/"
+      "settings": [{
+          "id": "zcyuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/zcy.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/zcy.png?raw=true"
+      ]
     }
   ]
 }
