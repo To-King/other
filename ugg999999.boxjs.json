@@ -728,18 +728,53 @@
         "zcyCookie"
       ],
       "settings": [{
-          "id": "zcyuserck",
-          "name": "当前账号序号",
-          "val": "1",
-          "type": "number",
-          "desc": "你要抓取第几个账号，就填几。"
-        }
-      ],
+        "id": "zcyuserck",
+        "name": "当前账号序号",
+        "val": "1",
+        "type": "number",
+        "desc": "你要抓取第几个账号，就填几。"
+      }],
       "repo": "https://github.com/ugg999999/other",
       "script": "https://github.com/",
       "icons": [
         "https://github.com/ugg999999/other/main/img/zcy.png?raw=true",
         "https://github.com/ugg999999/other/main/img/zcy.png?raw=true"
+      ]
+    },
+    {
+      "id": "slapp",
+      "author": "@ugg999999",
+      "name": "闪辆",
+      "keys": [
+        "slapp"
+      ],
+      "settings": [{
+          "id": "sluserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "slactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/sl.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/sl.png?raw=true"
       ]
     }
   ]
