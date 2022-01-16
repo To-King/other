@@ -776,6 +776,27 @@
         "https://github.com/ugg999999/other/main/img/sl.png?raw=true",
         "https://github.com/ugg999999/other/main/img/sl.png?raw=true"
       ]
+    },
+    {
+      "id": "xmydapp",
+      "name": "小米运动",
+      "author": "@ugg999999",
+      "keys": [
+        "xmydapp"
+      ],
+      "settings": [{
+        "id": "xmyduserck",
+        "name": "当前账号序号",
+        "val": "1",
+        "type": "number",
+        "desc": "你要抓取第几个账号，就填几。"
+      }],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/xmyd.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/xmyd.png?raw=true"
+      ]
     }
   ]
 }
