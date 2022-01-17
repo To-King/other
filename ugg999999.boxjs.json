@@ -782,7 +782,7 @@
       "name": "中青看点",
       "author": "@ugg999999",
       "keys": [
-        "zq_nick",
+        "zq_nick": "账号",
         "youthheader_zq",
         "read_zq",
         "readtime_zq",
