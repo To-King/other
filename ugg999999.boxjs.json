@@ -778,86 +778,121 @@
       ]
     },
     {
-      "id": "zqkdapp",
-      "name": "中青看点",
-      "author": "@ugg999999",
-      "keys": [
-        "zq_nick",
-        "youthheader_zq",
-        "read_zq",
-        "readtime_zq",
-        "cashurl_zq",
-        "cashbody_zq",
-        "zqcash",
-        "zqcard",
-        "youth_start",
-        "youth_look",
-        "youth_autoread",
-        "autotime_zq"
+      "id": "youthCk",
+      "name": "中青数据",
+      "keys": ["youthheader_zq", "read_zq", "readtime_zq"],
+      "descs_html": [
+        "多账号脚本地址【<a href=\"youth.js\">中青看点极速版</a>】",
+        "中青多账号ck抓取步骤：",
+        "1、boxjs中指定抓包账号，如：2",
+        "2、NE工具订阅配置【<a href=\"rewrite-zq.plugin\">中青看点</a>】【<a href=\"rewrite-zqkkz.plugin\">中青看看赚、浏览赚</a>】",
+        "  ⚠️订阅为Loon的插件，QX需开启解析器才能使用",
+        "3、打开中青APP，进入“我的”=>“任务中心”抓取 youthheader_zq 数据、 进入任务中心里的看看赚，点任务进入页面即可获取看看赚数据、 进入看看赚页面顶部的浏览赚页面，点任务跳转浏览器时可获取浏览赚数据（中青app有可能不发起任务开始请求，那将无法抓包）",
+        "4、在首页找个视频看看，超过1分钟后返回上一页面可获取时长数据，首次获取或时长数据记录的有效时间大于60秒时才会进行通知提醒",
+        "备注：看看赚的任务可能失效过期，建议：1、在看看赚配置中选则移除失败数据；2、看看赚任务一天跑两次；3、第一二次任务执行之间，可再回中青app看看赚任务页面查看下是否有新任务"
       ],
+      "author": "@ugg999999",
       "settings": [{
-          "id": "sluserck",
-          "name": "当前账号序号",
-          "val": "1",
-          "type": "number",
-          "desc": "你要抓取第几个账号，就填几。"
+        "id": "ckFormat",
+        "val": "",
+        "name": "新CK格式",
+        "type": "boolean",
+        "desc": "数据是否按新格式存储"
+      }, {
+        "id": "zqSuffix",
+        "name": "抓包账号",
+        "val": "1",
+        "type": "number",
+        "desc": "指定抓取的数据包用于哪个账号，设置数值如：1、2、3..."
+      }, {
+        "id": "zqExecAc",
+        "name": "中青执行账号",
+        "val": "1",
+        "type": "text",
+        "desc": "设置中青的执行账号，多个账号用半角逗号分隔，如：1,2,4"
+      }],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true"
+      ]
+    }, {
+      "id": "youthNeRead",
+      "name": "中青阅读",
+      "descs_html": [
+        "中青阅读脚本地址【<a href=\"zqread.js\">中青阅读</a>】",
+        "注意：因此脚本使用的阅读数据存储位置与songyangzz大佬的不同，所以需搭配【<a href=\"rewrite-zqread.plugin\">阅读数据抓包订阅</a>】抓取的阅读数据使用",
+        "⚠️：QX阅读数据可通过【<a href=\"zqGaReadData.js\">Http Backend脚本</a>】的方式导出：配置好后浏览器中访问即可获取数据"
+      ],
+      "author": "ugg999999",
+      "settings": [{
+          "id": "readMode",
+          "name": "执行模式（点击查看设置说明）",
+          "val": "0",
+          "type": "text",
+          "desc": "0-循环阅读：任务执行时间需大于21秒\n1-去重排序：根据响应数据判断重复并将视频往前排，依此优化阅读效率（可用半角逗号间隔该模式运行的账号，如账号一跟账号三才执行去重排序：1,1,3）\n3-备份数据：根据指定的备份格式，将要备份的数据以log的形式打印出来（高版本qx限制了打印日志长度，需使用其它方式导出）\n4-清空所有中青数据"
         },
         {
-          "id": "zqcard",
-          "val": "false",
-          "name": "打卡赚钱",
-          "type": "boolean",
-          "desc": "每日打卡报名及早起打卡"
-        },
-        {
-          "id": "zqtime",
-          "val": "05",
-          "name": "打卡时间",
-          "type": "number",
-          "desc": "每日早起打卡时间"
-        },
-        {
-          "id": "delay_rotary_zq",
-          "val": "10",
-          "name": "转盘时间间隔",
-          "type": "number",
-          "desc": "间隔时间设置，如1秒填1即可"
-        },
-        {
-          "id": "notifytimes",
-          "val": "",
-          "name": "通知频率 (点击查看设置说明)",
-          "type": "number",
-          "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
-        },
-        {
-          "id": "zqcash",
-          "val": "30",
-          "name": "提现金额",
+          "id": "zqReadScheme",
+          "name": "阅读数据备份输出格式",
+          "val": "DF",
           "type": "radios",
-          "desc": "自动提现金额需和获取提现请求保持一致",
           "items": [{
-              "key": "10",
-              "label": "10元"
+              "key": "QX",
+              "label": "QX持久化数据代码"
             },
             {
-              "key": "30",
-              "label": "30元"
+              "key": "LS",
+              "label": "Loon&Surge持久化数据代码"
             },
             {
-              "key": "100",
-              "label": "100元"
+              "key": "GA",
+              "label": "Github Actions使用的以&分隔数据"
+            },
+            {
+              "key": "DF",
+              "label": "Default"
             }
           ]
-        },
-        {
-          "id": "youth_cut",
-          "val": false,
-          "name": "缩减请求",
-          "type": "boolean",
-          "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+        }, {
+          "id": "read_count",
+          "name": "账号1总阅读数",
+          "val": "0",
+          "type": "number",
+          "desc": "账号1阅读数据总行数"
         }
       ],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true"
+      ]
+    },
+    {
+      "id": "youthBanner",
+      "name": "中青看看赚",
+      "descs_html": [
+        "⚠️：带有android字眼的会话数据是抓安卓设备的app数据包的，只用ios的话，无视它的存在吧"
+      ],
+      "keys": ["youth_banner", "youth_android_readtime", "youth_android_reward", "youth_android_newtask"],
+      "author": "@ugg999999",
+      "settings": [{
+        "id": "delErrorData",
+        "name": "移除当日失败两次+的任务数据",
+        "val": "0",
+        "type": "radios",
+        "items": [{
+            "key": "0",
+            "label": "不移除"
+          },
+          {
+            "key": "1",
+            "label": "移除"
+          }
+        ]
+      }],
       "repo": "https://github.com/ugg999999/other",
       "script": "https://github.com/",
       "icons": [
