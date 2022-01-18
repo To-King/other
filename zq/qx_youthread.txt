@@ -1,0 +1,9 @@
+hostname = *.youth.cn,ios.baertt.com,kandian.wkandian.com,kd.youth.cn
+
+https:\/\/(ios\.baertt|kandian\.wkandian)\.com\/v5\/article\/(info/get|info|detail)\.json url script-request-header https://raw.githubusercontent.com/ugg999999/other/main/zq/Youth_Read.js
+
+https:\/\/ios\.baertt\.com\/v5\/article\/complete\.json url script-request-body https://raw.githubusercontent.com/ugg999999/other/main/zq/Youth_Read.js
+
+https:\/\/ios\.baertt\.com/v5\/user\/stay\.json url script-request-body https://raw.githubusercontent.com/ugg999999/other/main/zq/Youth_Read.js
+
+ios\.baertt\.com
