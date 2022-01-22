@@ -924,6 +924,27 @@
         "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true",
         "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true"
       ]
+    },
+    {
+      "id": "kfxapp",
+      "name": "卡夫享",
+      "author": "@ugg999999",
+      "keys": [
+        "kfxtoken"
+      ],
+      "settings": [{
+        "id": "kfxspuserck",
+        "name": "当前账号",
+        "val": "1",
+        "type": "number",
+        "desc": "第几个账号，就填几。"
+      }],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/kfx.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/kfx.png?raw=true"
+      ]
     }
   ]
 }
