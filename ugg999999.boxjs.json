@@ -1017,6 +1017,43 @@
         "https://github.com/ugg999999/other/main/img/sjb.png?raw=true",
         "https://github.com/ugg999999/other/main/img/sjb.png?raw=true"
       ]
+    },
+    {
+      "id": "txsapp",
+      "name": "淘小说",
+      "author": "@ugg999999",
+      "keys": [
+        "txsapp"
+      ],
+      "settings": [
+        {
+          "id": "txsuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "1",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "txsactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/txs.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/txs.png?raw=true"
+      ]
     }
   ]
 }
