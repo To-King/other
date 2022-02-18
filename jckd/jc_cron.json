@@ -1,0 +1,127 @@
+{
+  "name": "晶彩看点定时任务订阅",
+  "desc": "无",
+  "date": "2022-02-05 20:32:08",
+  "resource": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_cron.json",
+  "list": [
+    {
+      "name": "晶彩-火爆转发",
+      "type": "cron",
+      "time": "15 6,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_share.js"
+      }
+    },
+    {
+      "name": "晶彩-福利视频",
+      "type": "cron",
+      "time": "0 9,13,19 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_Adv_video.js"
+      }
+    },
+    {
+      "name": "晶彩-宝箱领取",
+      "type": "cron",
+      "time": "12 22 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_box.js"
+      }
+    },
+    {
+      "name": "晶彩-转盘抽奖",
+      "type": "cron",
+      "time": "30 20 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_Rotary.js"
+      }
+    },
+    {
+      "name": "晶彩-自动提现",
+      "type": "cron",
+      "time": "25 10 */7 * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_withdraw.js"
+      }
+    },
+    {
+      "name": "晶彩-收益统计",
+      "type": "cron",
+      "time": "15 23 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_today_score.js"
+      }
+    },
+    {
+      "name": "晶彩-每日任务",
+      "type": "cron",
+      "time": "15 7 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_oneday.js"
+      }
+    },
+    {
+      "name": "晶彩-5/60分钟",
+      "type": "cron",
+      "time": "20 21 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_5_60.js"
+      }
+    },
+    {
+      "name": "晶彩-看视频",
+      "type": "cron",
+      "time": "5 13 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_ksp.js"
+      }
+    },
+    {
+      "name": "晶彩-看看赚",
+      "type": "cron",
+      "time": "10 8 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_kkz.js"
+      }
+    },
+    {
+      "name": "晶彩-签到",
+      "type": "cron",
+      "time": "15 2 * * *",
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_qd.js"
+      }
+    },
+    {
+      "name": "晶彩-文章",
+      "type": "cron",
+      "time": "30 7,12,18 * * *",
+      "running": true,
+      "job": {
+        "type": "runjs",
+        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_wz.js"
+      }
+    }
+  ]
+}
