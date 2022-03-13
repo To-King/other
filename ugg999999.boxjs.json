@@ -935,6 +935,10 @@
             {
               "key": "kkdapp",
               "label": "快看点"
+            },
+            {
+              "key": "jkttapp",
+              "label": "健康头条"
             }
           ],
           "desc": "选择需要同步的APP"
