@@ -1122,6 +1122,43 @@
         "https://github.com/ugg999999/other/main/img/zssq.png?raw=true",
         "https://github.com/ugg999999/other/main/img/zssq.png?raw=true"
       ]
+    },
+    {
+      "id": "jkttapp",
+      "name": "健康头条",
+      "author": "@ugg999999",
+      "keys": [
+        "jkttapp"
+      ],
+      "settings": [
+        {
+          "id": "jkttuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        },
+        {
+          "id": "tguserid",
+          "name": "用户编号",
+          "val": "",
+          "type": "number",
+          "desc": "从机器人获得"
+        },
+        {
+          "id": "jkttactivecode",
+          "name": "授权码",
+          "val": "",
+          "type": "text",
+          "desc": "从机器人获得"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/jktt.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/jktt.png?raw=true"
+      ]
     }
   ]
 }
