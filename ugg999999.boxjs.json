@@ -114,20 +114,6 @@
           "val": "1",
           "type": "number",
           "desc": "当前账号对应"
-        },
-        {
-          "id": "tguserid",
-          "name": "TG用户名",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "sqxsactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/shuqi/sqxs.js",
@@ -150,20 +136,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "jrttactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -437,20 +409,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "dyjsbactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/dyjsb/dyjsb.js",
@@ -567,31 +525,6 @@
       ]
     },
     {
-      "id": "kkdapp",
-      "name": "快看点",
-      "author": "@ugg999999",
-      "keys": [
-        "kkdheader",
-        "kkdcookie",
-        "kkdsign"
-      ],
-      "settings": [
-        {
-          "id": "kkdspuserck",
-          "name": "当前账号",
-          "val": "1",
-          "type": "number",
-          "desc": "第几个账号，就填几。"
-        }
-      ],
-      "repo": "https://github.com/ugg999999/other/blob/main/kkd/kkd.js",
-      "script": "https://raw.githubusercontent.com/ugg999999/other/main/kkd/kkd.js",
-      "icons": [
-        "https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png",
-        "https://raw.githubusercontent.com/ugg999999/other/main/img/kkd.png"
-      ]
-    },
-    {
       "id": "fqctapp",
       "name": "番茄畅听",
       "author": "@ugg999999",
@@ -605,20 +538,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "fqctactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/fqct/fqctapp.js",
@@ -642,20 +561,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "fqxsactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/fqxs/fqxs.js",
@@ -679,20 +584,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "qqydactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/qqyd/qqyd.js",
@@ -716,20 +607,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "awyactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -737,29 +614,6 @@
       "icons": [
         "https://github.com/ugg999999/other/main/img/awy.png?raw=true",
         "https://github.com/ugg999999/other/main/img/awy.png?raw=true"
-      ]
-    },
-    {
-      "id": "zcyapp",
-      "name": "走财运",
-      "author": "@ugg999999",
-      "keys": [
-        "zcyCookie"
-      ],
-      "settings": [
-        {
-          "id": "zcyuserck",
-          "name": "当前账号序号",
-          "val": "1",
-          "type": "number",
-          "desc": "你要抓取第几个账号，就填几。"
-        }
-      ],
-      "repo": "https://github.com/ugg999999/other",
-      "script": "https://github.com/",
-      "icons": [
-        "https://github.com/ugg999999/other/main/img/zcy.png?raw=true",
-        "https://github.com/ugg999999/other/main/img/zcy.png?raw=true"
       ]
     },
     {
@@ -776,20 +630,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "slactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -916,66 +756,6 @@
       ]
     },
     {
-      "id": "zqkdapp",
-      "name": "中青看点IOS",
-      "author": "@ugg999999",
-      "keys": [
-        "zqkdapp"
-      ],
-      "settings": [
-        {
-          "id": "zqkduserck",
-          "name": "当前账号序号",
-          "val": "1",
-          "type": "number",
-          "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "zqkdactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
-        }
-      ],
-      "repo": "https://github.com/ugg999999/other",
-      "script": "https://github.com/",
-      "icons": [
-        "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true",
-        "https://github.com/ugg999999/other/main/img/zqkd.png?raw=true"
-      ]
-    },
-    {
-      "id": "kfxapp",
-      "name": "卡夫享",
-      "author": "@ugg999999",
-      "keys": [
-        "kfxtoken"
-      ],
-      "settings": [
-        {
-          "id": "kfxspuserck",
-          "name": "当前账号",
-          "val": "1",
-          "type": "number",
-          "desc": "第几个账号，就填几。"
-        }
-      ],
-      "repo": "https://github.com/ugg999999/other",
-      "script": "https://github.com/",
-      "icons": [
-        "https://github.com/ugg999999/other/main/img/kfx.png?raw=true",
-        "https://github.com/ugg999999/other/main/img/kfx.png?raw=true"
-      ]
-    },
-    {
       "id": "sjbapp",
       "name": "睡觉宝",
       "author": "@ugg999999",
@@ -989,20 +769,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "sjbactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -1026,20 +792,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "txsactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -1063,20 +815,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "zssqactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -1100,20 +838,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "wlkdactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -1137,20 +861,6 @@
           "val": "1",
           "type": "number",
           "desc": "你要抓取第几个账号，就填几。"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "jkttactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other",
@@ -1158,6 +868,90 @@
       "icons": [
         "https://github.com/ugg999999/other/main/img/jktt.png?raw=true",
         "https://github.com/ugg999999/other/main/img/jktt.png?raw=true"
+      ]
+    },
+    {
+      "id": "kkdapp",
+      "name": "快看点",
+      "author": "@ugg999999",
+      "keys": [
+        "kkdapp"
+      ],
+      "settings": [
+        {
+          "id": "kkduserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/ugg999999/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/kkd.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/kkd.png?raw=true"
+      ]
+    },
+    {
+      "id": "syncql",
+      "name": "同步青龙",
+      "author": "@ugg999999",
+      "keys": [
+        "ql_host",
+        "ql_app_id",
+        "ql_secret_key",
+        "sync_ql_key",
+        "sync_ql_remark"
+      ],
+      "settings": [
+        {
+          "id": "ql_host",
+          "name": "青龙访问地址",
+          "val": "http://127.0.0.1:5700",
+          "type": "text",
+          "desc": "填写青龙的访问地址"
+        },
+        {
+          "id": "ql_app_id",
+          "name": "青龙授权id",
+          "val": "",
+          "type": "text",
+          "desc": "填写青龙的第三方授权id"
+        },
+        {
+          "id": "ql_secret_key",
+          "name": "青龙授权秘钥",
+          "val": "",
+          "type": "text",
+          "desc": "填写青龙的第三方授权秘钥"
+        },
+        {
+          "id": "sync_ql_key",
+          "name": "青龙变量名",
+          "val": "",
+          "type": "selects",
+          "items": [
+            {
+              "key": "kkdapp",
+              "label": "快看点"
+            }
+          ],
+          "desc": "选择需要同步的APP"
+        },
+        {
+          "id": "sync_ql_remark",
+          "name": "青龙变量备注",
+          "val": "",
+          "type": "text",
+          "desc": "填写需要同步的变量备注信息"
+        }
+      ],
+      "repo": "https://github.com/bluesmallpig/scripts",
+      "script": "https://raw.githubusercontent.com/ugg999999/other/main/QL/sync_ql.js",
+      "icons": [
+        "https://github.com/ugg999999/other/main/img/ql-mini.png?raw=true",
+        "https://github.com/ugg999999/other/main/img/ql.png?raw=true"
       ]
     }
   ]
