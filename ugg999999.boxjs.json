@@ -945,7 +945,9 @@
               "label": "趣头条"
             },
             {
-              "key": "TxStockAppUrl,TxStockAppHeader,TxStockWxHeader",
+              "key": "TxStockAppUrl",
+              "key2": "TxStockAppHeader",
+              "key3": "TxStockWxHeader",
               "label": "腾讯自选股"
             }
           ],
