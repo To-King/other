@@ -280,9 +280,18 @@
     {
       "id": "txzxg",
       "name": "腾讯自选股APP",
-      "keys": [
+      /* "keys": [
         "TxStockAppUrl",
         "TxStockAppHeader",
+        "TxStockWxHeader"
+      ],*/
+      "keys": [
+        "TxStockAppUrl"
+      ],
+      "keys2": [
+        "TxStockAppHeader"
+      ],
+      "keys3": [
         "TxStockWxHeader"
       ],
       "author": "@ugg999999",
