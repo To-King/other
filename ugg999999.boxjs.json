@@ -943,6 +943,10 @@
             {
               "key": "qttapp",
               "label": "趣头条"
+            },
+            {
+              "key": "TxStockAppUrl,TxStockAppHeader,TxStockWxHeader",
+              "label": "腾讯自选股"
             }
           ],
           "desc": "选择需要同步的APP"
