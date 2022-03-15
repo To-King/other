@@ -280,11 +280,6 @@
     {
       "id": "txzxg",
       "name": "腾讯自选股APP",
-      /* "keys": [
-        "TxStockAppUrl",
-        "TxStockAppHeader",
-        "TxStockWxHeader"
-      ],*/
       "keys": [
         "TxStockAppUrl"
       ],
