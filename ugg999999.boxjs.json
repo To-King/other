@@ -231,20 +231,6 @@
           "val": "1",
           "type": "number",
           "desc": "当前账号对应"
-        },
-        {
-          "id": "tguserid",
-          "name": "用户编号",
-          "val": "1",
-          "type": "number",
-          "desc": "从机器人获得"
-        },
-        {
-          "id": "dzlactivecode",
-          "name": "授权码",
-          "val": "",
-          "type": "text",
-          "desc": "从机器人获得"
         }
       ],
       "repo": "https://github.com/ugg999999/other/blob/main/dzl/dzl.js",
@@ -281,12 +267,8 @@
       "id": "txzxg",
       "name": "腾讯自选股APP",
       "keys": [
-        "TxStockAppUrl"
-      ],
-      "keys2": [
-        "TxStockAppHeader"
-      ],
-      "keys3": [
+        "TxStockAppUrl",
+        "TxStockAppHeader",
         "TxStockWxHeader"
       ],
       "author": "@ugg999999",
@@ -947,12 +929,6 @@
             {
               "key": "qttapp",
               "label": "趣头条"
-            },
-            {
-              "key": "TxStockAppUrl",
-              "key2": "TxStockAppHeader",
-              "key3": "TxStockWxHeader",
-              "label": "腾讯自选股"
             }
           ],
           "desc": "选择需要同步的APP"
