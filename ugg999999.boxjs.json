@@ -972,11 +972,13 @@
       ]
     },
     {
-      "id": "bslyapp",
+      "id": "yml_bslystatus",
       "name": "百事乐元",
       "author": "@ugg999999",
       "keys": [
-        "yml_bsly_data"
+        "yml_bslyurl",
+        "yml_bslyhd",
+        "yml_bslybody"
       ],
       "settings": [
         {
