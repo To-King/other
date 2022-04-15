@@ -1,0 +1,1000 @@
+{
+  "id": "To-King.app.sub",
+  "name": "自用订阅",
+  "author": "@To-King",
+  "icon": "https://raw.githubusercontent.com/To-King/other/main/img/icon.png",
+  "repo": "https://github.com/To-King/other",
+  "apps": [
+    {
+      "id": "PushBoxjsTask",
+      "name": "V2pTask",
+      "keys": [
+        "v2purl",
+        "v2token",
+        "v2pblacklist"
+      ],
+      "author": "@To-King",
+      "settings": [
+        {
+          "id": "v2ptaskupdate",
+          "name": "V2P上传任务",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开才会上传定时任务,用来刚开始使用的时候"
+        },
+        {
+          "id": "jdtaskupdate",
+          "name": "京东上传任务",
+          "val": false,
+          "type": "boolean",
+          "desc": "用来打开上传定时任务包含京东系列"
+        },
+        {
+          "id": "v2pblacklist",
+          "name": "上传黑名单",
+          "val": "",
+          "type": "textarea",
+          "desc": "删除你要上传的任务对象"
+        },
+        {
+          "id": "v2purl",
+          "name": "主页地址",
+          "val": "",
+          "type": "text",
+          "desc": "请到设置查询,例子:http://192.168.1.102:12521"
+        },
+        {
+          "id": "v2token",
+          "name": "WEBHOOK TOKEN",
+          "val": "",
+          "type": "text",
+          "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+        }
+      ],
+      "repo": [
+        "https://github.com/To-King/other/blob/main/ELECV2PJS/PushTask_elecV2p.js"
+      ],
+      "script": "https://raw.githubusercontent.com/To-King/other/main/ELECV2PJS/PushTask_elecV2p.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/icon.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/icon.png"
+      ]
+    },
+    {
+      "id": "PushBoxjsCookie",
+      "name": "V2pCookie",
+      "keys": [
+        "v2purl",
+        "v2token"
+      ],
+      "author": "@To-King",
+      "settings": [
+        {
+          "id": "v2pcookieupdate",
+          "name": "V2P上传任务",
+          "val": false,
+          "type": "boolean",
+          "desc": "打开才会上传cookie,用来刚开始使用的时候。"
+        },
+        {
+          "id": "v2purl",
+          "name": "主页地址",
+          "val": "",
+          "type": "text",
+          "desc": "请到设置查询,例子:http://192.168.1.102:12521"
+        },
+        {
+          "id": "v2token",
+          "name": "WEBHOOK TOKEN",
+          "val": "",
+          "type": "text",
+          "desc": "请到设置查询,例子:a8c259b2-67fe-D-7bfdf1f55cb3"
+        }
+      ],
+      "repo": [
+        "https://github.com/CenBoMin/GithubSync/blob/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js"
+      ],
+      "script": "https://raw.githubusercontent.com/To-King/other/main/ELECV2PJS/PushBoxjsCookie_elecV2p.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/icon.png",
+        "https://raw.githubusercontent.com/Ariszy/Private-Script/master/img/elecv2p.png"
+      ]
+    },
+    {
+      "id": "sqxsapp",
+      "name": "书旗小说",
+      "keys": [
+        "sqxsapp"
+      ],
+      "author": "@To-King",
+      "settings": [
+        {
+          "id": "sqxsuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/shuqi/sqxs.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/shuqi/sqxs.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/shuqi.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/shuqi.png"
+      ]
+    },
+    {
+      "id": "jrttapp",
+      "name": "今日头条极速版",
+      "keys": [
+        "jrttapp"
+      ],
+      "settings": [
+        {
+          "id": "jrttuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/jrtt.png?raw=true",
+        "https://github.com/To-King/other/main/img/jrtt.png?raw=true"
+      ]
+    },
+    {
+      "id": "yyd",
+      "name": "云阅读",
+      "keys": [
+        "yydheader"
+      ],
+      "author": "@To-King",
+      "settings": [
+        {
+          "id": "yydSuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        },
+        {
+          "id": "yydCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "yydXH",
+          "name": "循环获取ck",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "yydTXTX",
+          "name": "txtx",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "yydSC",
+          "name": "sc",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "yydnotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        },
+        {
+          "id": "yydnotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+        },
+        {
+          "id": "yydMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/yyd/yyd.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/yyd/yyd.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/yyd.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/yyd.png"
+      ]
+    },
+    {
+      "id": "dzlapp",
+      "name": "多走路",
+      "author": "@To-King",
+      "keys": [
+        "dzlapp"
+      ],
+      "settings": [
+        {
+          "id": "dzluserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/dzl/dzl.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/dzl/dzl.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/blob/main/img/dzl.png",
+        "https://raw.githubusercontent.com/To-King/other/blob/main/img/dzl.png"
+      ]
+    },
+    {
+      "id": "qhbdspapp",
+      "name": "趣红包短视频",
+      "author": "@To-King",
+      "keys": [
+        "qhbdspapp"
+      ],
+      "settings": [
+        {
+          "id": "qhbdspuserck",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前账号对应"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/qhb/qhbdspapp.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/qhb/qhbdspapp.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/blob/main/img/qhb.png",
+        "https://raw.githubusercontent.com/To-King/other/blob/main/img/qhb.png"
+      ]
+    },
+    {
+      "id": "txzxg",
+      "name": "腾讯自选股APP",
+      "keys": [
+        "TxStockAppUrl",
+        "TxStockAppHeader",
+        "TxStockWxHeader"
+      ],
+      "author": "@To-King",
+      "settings": [
+        {
+          "id": "TxStockCash",
+          "name": "提现设置",
+          "val": "1",
+          "type": "number",
+          "desc": "0代表不提现，1代表提现1元，5代表提现5元"
+        },
+        {
+          "id": "TxStockHelp",
+          "name": "分享任务设置",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1打开，默认打开"
+        },
+        {
+          "id": "TxStockHelpOrder",
+          "name": "互助顺序设置",
+          "val": "0",
+          "type": "number",
+          "desc": "按顺序填入要帮助的用户，0代表不帮助其他用户，每个用户之间用@或者#隔开"
+        },
+        {
+          "id": "TxStockNewbie",
+          "name": "新手任务设置",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/txstock/txstock.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/txstock/txstock.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/txstock.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/txstock.png"
+      ]
+    },
+    {
+      "id": "qkhq",
+      "name": "趣看行情",
+      "keys": [
+        "qkhqheader"
+      ],
+      "author": "@To-King",
+      "settings": [
+        {
+          "id": "qkhqSuffix",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        },
+        {
+          "id": "qkhqCount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "qkhqXH",
+          "name": "循环获取ck",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "qkhqTXTX",
+          "name": "txtx",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "qkhqSC",
+          "name": "sc",
+          "val": "0",
+          "type": "number",
+          "desc": "0关闭，1打开，默认关闭"
+        },
+        {
+          "id": "qkhqnotifyttt",
+          "name": "推送控制",
+          "val": "1",
+          "type": "number",
+          "desc": "0关闭，1推送,默认12点以及23点推送"
+        },
+        {
+          "id": "qkhqnotifyInterval",
+          "name": "通知控制",
+          "val": "2",
+          "type": "number",
+          "desc": "0关闭，1为 所有通知，2为 12，23 点通知，3为 6，12，18，23 点通知"
+        },
+        {
+          "id": "qkhqMinutes",
+          "name": "推送-通知 分钟控制",
+          "val": "10",
+          "type": "number",
+          "desc": "推送以及通知控制在什么分钟段，可设置0-59,默认0到10"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/qkhq/qkhq.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/qkhq/qkhq.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/qkhq.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/qkhq.png"
+      ]
+    },
+    {
+      "id": "dyjsbapp",
+      "name": "抖音极速版app",
+      "author": "@To-King",
+      "keys": [
+        "dyjsbapp"
+      ],
+      "settings": [
+        {
+          "id": "dyjsbkey",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/dyjsb/dyjsb.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/dyjsb/dyjsb.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/dyjsb.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/dyjsb.png"
+      ]
+    },
+    {
+      "id": "dawapp",
+      "name": "都爱玩",
+      "author": "@To-King",
+      "keys": [
+        "dawapp"
+      ],
+      "settings": [
+        {
+          "id": "dawuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/daw/daw.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/daw/daw.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/daw.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/daw.png"
+      ]
+    },
+    {
+      "id": "ksjsb",
+      "name": "快手极速版",
+      "author": "@To-King",
+      "keys": [
+        "kshd"
+      ],
+      "settings": [
+        {
+          "id": "ksuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/ksjsb/ks_js.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/ksjsb/ks_js.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/ksjsb.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/ksjsb.png"
+      ]
+    },
+    {
+      "id": "jrttjsbapp",
+      "name": "今日头条极速版",
+      "author": "@To-King",
+      "keys": [
+        "jrttjsbHeader"
+      ],
+      "settings": [
+        {
+          "id": "jrttjsbuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/jrttjsb/jrttjsb.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/jrttjsb/jrttjsb.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/jrttjsb.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/jrttjsb.png"
+      ]
+    },
+    {
+      "id": "jkdapp",
+      "name": "聚看点APP",
+      "author": "@To-King",
+      "keys": [
+        "jkdck"
+      ],
+      "settings": [
+        {
+          "id": "jkdstatus",
+          "name": "当前账号",
+          "val": "1",
+          "type": "number",
+          "desc": "当前抓取ck记录的账号序号，如：1、2、3、4"
+        },
+        {
+          "id": "jkdcount",
+          "name": "账号个数",
+          "val": "1",
+          "type": "number",
+          "desc": "指定任务最多跑几个账号，根据抓取的账号数据个数来设值"
+        },
+        {
+          "id": "jkdck",
+          "name": "聚看点CK",
+          "val": "",
+          "type": "text",
+          "desc": "聚看点ck内容"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/jkd/jkdapp.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/jkd/jkdapp.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/jkd.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/jkd.png"
+      ]
+    },
+    {
+      "id": "fqctapp",
+      "name": "番茄畅听",
+      "author": "@To-King",
+      "keys": [
+        "fqctapp"
+      ],
+      "settings": [
+        {
+          "id": "fqctuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/fqct/fqctapp.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/fqct/fqctapp.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/fqct.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/fqct.png"
+      ]
+    },
+    {
+      "id": "fqxsapp",
+      "name": "番茄小说",
+      "author": "@To-King",
+      "keys": [
+        "fqxsapp"
+      ],
+      "settings": [
+        {
+          "id": "fqxsuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/fqxs/fqxs.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/fqxs/fqxs.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/fqxs.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/fqxs.png"
+      ]
+    },
+    {
+      "id": "qqydapp",
+      "name": "QQ阅读",
+      "author": "@To-King",
+      "keys": [
+        "qqydapp"
+      ],
+      "settings": [
+        {
+          "id": "qqyduserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几"
+        }
+      ],
+      "repo": "https://github.com/To-King/other/blob/main/qqyd/qqyd.js",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/qqyd/qqyd.js",
+      "icons": [
+        "https://raw.githubusercontent.com/To-King/other/main/img/qqyd.png",
+        "https://raw.githubusercontent.com/To-King/other/main/img/qqyd.png"
+      ]
+    },
+    {
+      "id": "awyapp",
+      "name": "爱微影",
+      "author": "@To-King",
+      "keys": [
+        "awyapp"
+      ],
+      "settings": [
+        {
+          "id": "awyuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/awy.png?raw=true",
+        "https://github.com/To-King/other/main/img/awy.png?raw=true"
+      ]
+    },
+    {
+      "id": "slapp",
+      "author": "@To-King",
+      "name": "闪辆",
+      "keys": [
+        "slapp"
+      ],
+      "settings": [
+        {
+          "id": "sluserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/sl.png?raw=true",
+        "https://github.com/To-King/other/main/img/sl.png?raw=true"
+      ]
+    },
+    {
+      "id": "youth",
+      "name": "中青看点",
+      "author": "@To-King",
+      "descs_html": [
+        "<h4 align=\"center\">获取Cookie以及脚本配置请查看<a href=\"https://github.com/Sunert/Script/raw/master/TaskConf/youth/readme.md\">配置说明</a></h4>",
+        "<br />",
+        "<p>其中<font color='#FF0000',font-weight: bold>zq_nick、zqcash</font>和<font color='#FF0000',font-weight: bold>zqcard</font>为昵称、提现金额和早起打卡开关，无需另外获取，相关项设置后自动生成，cashurl_zq和cashbody_zq为提现请求，获取后方可自动提现，可选</p>"
+      ],
+      "keys": [
+        "zq_nick",
+        "youthheader_zq",
+        "read_zq",
+        "readtime_zq",
+        "cashurl_zq",
+        "cashbody_zq",
+        "zqcash",
+        "zqcard"
+      ],
+      "settings": [
+        {
+          "id": "zqcard",
+          "val": "false",
+          "name": "打卡赚钱",
+          "type": "boolean",
+          "desc": "每日打卡报名及早起打卡"
+        },
+        {
+          "id": "zqtime",
+          "val": "05",
+          "name": "打卡时间",
+          "type": "number",
+          "desc": "每日早起打卡时间"
+        },
+        {
+          "id": "delay_rotary_zq",
+          "val": "10",
+          "name": "转盘时间间隔",
+          "type": "number",
+          "desc": "间隔时间设置，如1秒填1即可"
+        },
+        {
+          "id": "notifytimes",
+          "val": "",
+          "name": "通知频率 (点击查看设置说明)",
+          "type": "number",
+          "desc": "设定通知频率，前三次为全部通知，之后转盘次数/设定频率整除时通知，如设置0为无通知，设置1为全部通知，设置其他数可整除余0时通知，默认值50"
+        },
+        {
+          "id": "zqcash",
+          "val": "30",
+          "name": "提现金额",
+          "type": "radios",
+          "desc": "自动提现金额需和获取提现请求保持一致",
+          "items": [
+            {
+              "key": "10",
+              "label": "10元"
+            },
+            {
+              "key": "30",
+              "label": "30元"
+            },
+            {
+              "key": "100",
+              "label": "100元"
+            }
+          ]
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/zqkd.png?raw=true",
+        "https://github.com/To-King/other/main/img/zqkd.png?raw=true"
+      ]
+    },
+    {
+      "id": "youthGain",
+      "name": "中青浏览赚&看看赚",
+      "author": "@sunert",
+      "keys": [
+        "youth_start",
+        "youth_look"
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/zqkd.png?raw=true",
+        "https://github.com/To-King/other/main/img/zqkd.png?raw=true"
+      ]
+    },
+    {
+      "id": "youthRead",
+      "name": "中青阅读",
+      "author": "@To-King",
+      "keys": [
+        "youth_autoread",
+        "autotime_zq"
+      ],
+      "settings": [
+        {
+          "id": "youth_cut",
+          "val": false,
+          "name": "缩减请求",
+          "type": "boolean",
+          "desc": "自动删除收益为0或者错误的阅读请求，使用完后请立即关闭，避免清空阅读请求"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/zqkd.png?raw=true",
+        "https://github.com/To-King/other/main/img/zqkd.png?raw=true"
+      ]
+    },
+    {
+      "id": "sjbapp",
+      "name": "睡觉宝",
+      "author": "@To-King",
+      "keys": [
+        "sjbapp"
+      ],
+      "settings": [
+        {
+          "id": "sjbuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/sjb.png?raw=true",
+        "https://github.com/To-King/other/main/img/sjb.png?raw=true"
+      ]
+    },
+    {
+      "id": "txsapp",
+      "name": "淘小说",
+      "author": "@To-King",
+      "keys": [
+        "txsapp"
+      ],
+      "settings": [
+        {
+          "id": "txsuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/txs.png?raw=true",
+        "https://github.com/To-King/other/main/img/txs.png?raw=true"
+      ]
+    },
+    {
+      "id": "zssqapp",
+      "name": "追书神器",
+      "author": "@To-King",
+      "keys": [
+        "zssqapp"
+      ],
+      "settings": [
+        {
+          "id": "zssquserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/zssq.png?raw=true",
+        "https://github.com/To-King/other/main/img/zssq.png?raw=true"
+      ]
+    },
+    {
+      "id": "wlkdapp",
+      "name": "文旅看点",
+      "author": "@To-King",
+      "keys": [
+        "wlkdapp"
+      ],
+      "settings": [
+        {
+          "id": "wlkduserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/zssq.png?raw=true",
+        "https://github.com/To-King/other/main/img/zssq.png?raw=true"
+      ]
+    },
+    {
+      "id": "jkttapp",
+      "name": "健康头条",
+      "author": "@To-King",
+      "keys": [
+        "jkttapp"
+      ],
+      "settings": [
+        {
+          "id": "jkttuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/jktt.png?raw=true",
+        "https://github.com/To-King/other/main/img/jktt.png?raw=true"
+      ]
+    },
+    {
+      "id": "kkdapp",
+      "name": "快看点",
+      "author": "@To-King",
+      "keys": [
+        "kkdapp"
+      ],
+      "settings": [
+        {
+          "id": "kkduserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/kkd.png?raw=true",
+        "https://github.com/To-King/other/main/img/kkd.png?raw=true"
+      ]
+    },
+    {
+      "id": "syncql",
+      "name": "同步青龙",
+      "author": "@To-King",
+      "keys": [
+        "ql_host",
+        "ql_app_id",
+        "ql_secret_key",
+        "sync_ql_key",
+        "sync_ql_remark"
+      ],
+      "settings": [
+        {
+          "id": "ql_host",
+          "name": "青龙访问地址",
+          "val": "http://127.0.0.1:5700",
+          "type": "text",
+          "desc": "填写青龙的访问地址"
+        },
+        {
+          "id": "ql_app_id",
+          "name": "青龙授权id",
+          "val": "",
+          "type": "text",
+          "desc": "填写青龙的第三方授权id"
+        },
+        {
+          "id": "ql_secret_key",
+          "name": "青龙授权秘钥",
+          "val": "",
+          "type": "text",
+          "desc": "填写青龙的第三方授权秘钥"
+        },
+        {
+          "id": "sync_ql_key",
+          "name": "青龙变量名",
+          "val": "",
+          "type": "selects",
+          "items": [
+            {
+              "key": "kkdapp",
+              "label": "快看点"
+            },
+            {
+              "key": "jkttapp",
+              "label": "健康头条"
+            },
+            {
+              "key": "qttapp",
+              "label": "趣头条"
+            }
+          ],
+          "desc": "选择需要同步的APP"
+        },
+        {
+          "id": "sync_ql_remark",
+          "name": "青龙变量备注",
+          "val": "",
+          "type": "text",
+          "desc": "填写需要同步的变量备注信息"
+        }
+      ],
+      "repo": "https://github.com/bluesmallpig/scripts",
+      "script": "https://raw.githubusercontent.com/To-King/other/main/QL/sync_ql.js",
+      "icons": [
+        "https://github.com/To-King/other/main/img/ql-mini.png?raw=true",
+        "https://github.com/To-King/other/main/img/ql.png?raw=true"
+      ]
+    },
+    {
+      "id": "qttapp",
+      "name": "趣头条",
+      "author": "@To-King",
+      "keys": [
+        "qttapp"
+      ],
+      "settings": [
+        {
+          "id": "qttuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/qtt.png?raw=true",
+        "https://github.com/To-King/other/main/img/qtt.png?raw=true"
+      ]
+    },
+    {
+      "id": "yml_bslystatus",
+      "name": "百事乐元",
+      "author": "@To-King",
+      "keys": [
+        "yml_bslyurl",
+        "yml_bslyhd",
+        "yml_bslybody"
+      ],
+      "settings": [
+        {
+          "id": "qttuserck",
+          "name": "当前账号序号",
+          "val": "1",
+          "type": "number",
+          "desc": "你要抓取第几个账号，就填几。"
+        }
+      ],
+      "repo": "https://github.com/To-King/other",
+      "script": "https://github.com/",
+      "icons": [
+        "https://github.com/To-King/other/main/img/icon.png?raw=true",
+        "https://github.com/To-King/other/main/img/icon.png?raw=true"
+      ]
+    }
+  ]
+}
