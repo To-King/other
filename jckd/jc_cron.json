@@ -2,7 +2,7 @@
   "name": "晶彩看点定时任务订阅",
   "desc": "无",
   "date": "2022-02-05 20:32:08",
-  "resource": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_cron.json",
+  "resource": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_cron.json",
   "list": [
     {
       "name": "晶彩-火爆转发",
@@ -11,7 +11,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_share.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_share.js"
       }
     },
     {
@@ -21,7 +21,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_Adv_video.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_Adv_video.js"
       }
     },
     {
@@ -31,7 +31,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_box.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_box.js"
       }
     },
     {
@@ -41,7 +41,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_Rotary.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_Rotary.js"
       }
     },
     {
@@ -51,7 +51,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_withdraw.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_withdraw.js"
       }
     },
     {
@@ -61,7 +61,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_today_score.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_today_score.js"
       }
     },
     {
@@ -71,7 +71,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_oneday.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_oneday.js"
       }
     },
     {
@@ -81,7 +81,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_5_60.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_5_60.js"
       }
     },
     {
@@ -91,7 +91,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_ksp.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_ksp.js"
       }
     },
     {
@@ -101,7 +101,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_kkz.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_kkz.js"
       }
     },
     {
@@ -110,7 +110,7 @@
       "time": "15 2 * * *",
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_qd.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_qd.js"
       }
     },
     {
@@ -120,7 +120,7 @@
       "running": true,
       "job": {
         "type": "runjs",
-        "target": "https://raw.githubusercontent.com/ugg999999/other/main/jckd/jc_wz.js"
+        "target": "https://raw.githubusercontent.com/To-King/other/main/jckd/jc_wz.js"
       }
     }
   ]
